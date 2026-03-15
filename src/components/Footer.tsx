@@ -19,7 +19,7 @@ export default function Footer() {
               Placerville and El Dorado County. Licensed, insured, and
               committed to your satisfaction.
             </p>
-            <p className="text-[13px] text-white/40">
+            <p className="text-[14px] font-semibold text-yellow">
               No contracts. No rescheduling fees.
             </p>
           </div>

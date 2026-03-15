@@ -3,25 +3,52 @@ const reasons = [
     title: "No Contracts Ever",
     description:
       "We earn your business every visit. No long-term commitments, no cancellation fees. Stay because you want to, not because you have to.",
-    icon: "\uD83D\uDCDD",
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect x="6" y="4" width="20" height="24" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <line x1="10" y1="12" x2="22" y2="12" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="10" y1="17" x2="18" y2="17" stroke="#3d0719" strokeWidth="1.5"/>
+        <path d="M8 24l16-16" stroke="#ab1818" strokeWidth="2" strokeLinecap="round"/>
+      </svg>
+    ),
   },
   {
     title: "No Rescheduling Fees",
     description:
       "Life happens. If you need to reschedule, we make it easy and free. Flexibility is built into how we work.",
-    icon: "\uD83D\uDCC5",
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect x="4" y="6" width="24" height="22" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <line x1="4" y1="12" x2="28" y2="12" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="10" y1="4" x2="10" y2="8" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <line x1="22" y1="4" x2="22" y2="8" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M12 20l3 3 5-6" stroke="#3d0719" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
   },
   {
     title: "Trusted Local Team",
     description:
       "We live and work in El Dorado County. Every member of our team is background-checked, insured, and trained to our high standards.",
-    icon: "\uD83E\uDD1D",
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="12" r="5" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M6 28c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M22 10l2 2 4-4" stroke="#3d0719" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
   },
   {
     title: "Consistent Quality",
     description:
       "We use detailed checklists for every job. You get the same thorough clean every time, not a different experience each visit.",
-    icon: "\u2705",
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <rect x="6" y="4" width="20" height="24" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M11 12l2 2 4-4" stroke="#3d0719" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M11 19l2 2 4-4" stroke="#3d0719" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
   },
 ];
 
@@ -46,22 +73,52 @@ export default function WhyChooseUs() {
           {reasons.map((reason) => (
             <div
               key={reason.title}
-              className="rounded-2xl bg-white p-8"
-              style={{ boxShadow: "0 2px 4px #00000040" }}
+              className="rounded-2xl bg-white p-8 transition-shadow hover:shadow-md"
+              style={{ boxShadow: "0 2px 8px rgba(0,0,0,0.08)" }}
             >
-              <span className="mb-4 block text-[36px]">{reason.icon}</span>
-              <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[24px] text-burgundy">
+              <div className="mb-4 flex h-[52px] w-[52px] items-center justify-center rounded-xl bg-burgundy/5">
+                {reason.icon}
+              </div>
+              <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[22px] text-burgundy">
                 {reason.title}
               </h3>
-              <p className="text-[16px] leading-relaxed text-dark-gray">
+              <p className="text-[15px] leading-relaxed text-dark-gray">
                 {reason.description}
               </p>
             </div>
           ))}
         </div>
 
+        {/* USP Banner */}
+        <div className="mt-12 flex flex-col items-center justify-center gap-4 rounded-full bg-burgundy px-8 py-5 sm:flex-row sm:gap-8 md:gap-12">
+          <div className="flex items-center gap-2 text-white">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"/>
+            </svg>
+            <span className="text-[15px] font-semibold">No Contracts</span>
+          </div>
+          <div className="flex items-center gap-2 text-white">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"/>
+            </svg>
+            <span className="text-[15px] font-semibold">No Rescheduling Fees</span>
+          </div>
+          <div className="flex items-center gap-2 text-white">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"/>
+            </svg>
+            <span className="text-[15px] font-semibold">Licensed &amp; Insured</span>
+          </div>
+          <div className="flex items-center gap-2 text-white">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"/>
+            </svg>
+            <span className="text-[15px] font-semibold">Instant Quotes</span>
+          </div>
+        </div>
+
         {/* Service Area callout */}
-        <div className="mt-14 rounded-2xl bg-yellow p-8 text-center md:p-12">
+        <div className="mt-10 rounded-2xl bg-yellow p-8 text-center md:p-12">
           <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[28px] text-burgundy">
             Proudly Serving El Dorado County
           </h3>

@@ -20,31 +20,31 @@ export default function Header() {
         <nav className="hidden items-center gap-8 md:flex">
           <a
             href="#services"
-            className="text-[16px] text-dark-gray transition-colors hover:text-burgundy"
+            className="text-[15px] font-medium text-dark-gray transition-colors hover:text-burgundy"
           >
             Services
           </a>
           <a
             href="#about"
-            className="text-[16px] text-dark-gray transition-colors hover:text-burgundy"
+            className="text-[15px] font-medium text-dark-gray transition-colors hover:text-burgundy"
           >
             Why Us
           </a>
           <a
             href="#testimonials"
-            className="text-[16px] text-dark-gray transition-colors hover:text-burgundy"
+            className="text-[15px] font-medium text-dark-gray transition-colors hover:text-burgundy"
           >
             Reviews
           </a>
           <a
             href="#contact"
-            className="text-[16px] text-dark-gray transition-colors hover:text-burgundy"
+            className="text-[15px] font-medium text-dark-gray transition-colors hover:text-burgundy"
           >
             Contact
           </a>
           <a
             href="tel:+15302146361"
-            className="rounded-full bg-burgundy px-6 py-3 text-[16px] font-semibold text-white transition-opacity hover:opacity-90"
+            className="rounded-full bg-burgundy px-6 py-3 text-[15px] font-semibold text-white transition-opacity hover:opacity-90"
           >
             (530) 214-6361
           </a>
@@ -101,7 +101,7 @@ export default function Header() {
           </a>
           <a
             href="tel:+15302146361"
-            className="rounded-full bg-burgundy px-6 py-3 text-[16px] font-semibold text-white"
+            className="mt-2 rounded-full bg-burgundy px-6 py-3 text-[16px] font-semibold text-white"
           >
             (530) 214-6361
           </a>

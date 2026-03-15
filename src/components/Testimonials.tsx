@@ -25,6 +25,14 @@ const testimonials = [
   },
 ];
 
+function StarIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 20 20" fill="#fae084">
+      <path d="M10 1.3l2.39 4.84 5.34.78-3.87 3.77.91 5.33L10 13.47l-4.77 2.55.91-5.33L2.27 6.92l5.34-.78L10 1.3z"/>
+    </svg>
+  );
+}
+
 export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-white py-20 md:py-28">
@@ -42,20 +50,27 @@ export default function Testimonials() {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="rounded-2xl bg-white p-8"
-              style={{ boxShadow: "0 2px 4px #00000040" }}
+              className="rounded-2xl bg-white p-8 transition-shadow hover:shadow-md"
+              style={{ boxShadow: "0 4px 16px rgba(0,0,0,0.08)" }}
             >
-              <div className="mb-4 text-[20px] text-yellow">
-                {"\u2605".repeat(t.stars)}
+              <div className="mb-4 flex gap-1">
+                {[...Array(t.stars)].map((_, i) => (
+                  <StarIcon key={i} />
+                ))}
               </div>
               <p className="mb-6 text-[16px] leading-relaxed text-dark-gray italic">
                 &ldquo;{t.text}&rdquo;
               </p>
-              <div>
-                <p className="text-[16px] font-semibold text-burgundy">
-                  {t.name}
-                </p>
-                <p className="text-[14px] text-gray">{t.location}</p>
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-burgundy text-[14px] font-semibold text-white">
+                  {t.name.charAt(0)}
+                </div>
+                <div>
+                  <p className="text-[16px] font-semibold text-burgundy">
+                    {t.name}
+                  </p>
+                  <p className="text-[13px] text-gray">{t.location}</p>
+                </div>
               </div>
             </div>
           ))}
