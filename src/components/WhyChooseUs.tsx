@@ -54,8 +54,8 @@ const reasons = [
 
 export default function WhyChooseUs() {
   return (
-    <section id="about" className="bg-light-bg-alt py-20 md:py-28">
-      <div className="mx-auto max-w-[1170px] px-6">
+    <section id="about" className="bg-light-bg-alt py-16 md:py-24">
+      <div className="mx-auto max-w-7xl px-6">
         <div className="mb-14 text-center">
           <p className="mb-3 text-[14px] font-semibold tracking-widest text-red-highlight uppercase">
             The Alexa&apos;s Difference
@@ -118,15 +118,27 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Service Area callout */}
-        <div className="mt-10 rounded-2xl bg-yellow p-8 text-center md:p-12">
-          <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[28px] text-burgundy">
-            Proudly Serving El Dorado County
-          </h3>
-          <p className="mx-auto max-w-[600px] text-[17px] leading-relaxed text-dark-gray">
-            Based in Placerville, we serve homes and businesses throughout El
-            Dorado County including Cameron Park, Shingle Springs, Diamond
-            Springs, El Dorado Hills, and surrounding communities.
-          </p>
+        <div className="mt-10 overflow-hidden rounded-3xl bg-yellow">
+          <div className="flex flex-col items-center gap-6 p-8 md:flex-row md:gap-10 md:p-12">
+            <div className="shrink-0">
+              <img
+                src="/images/el-dorado-seal.jpg"
+                alt="El Dorado County California official seal"
+                className="h-24 w-24 rounded-full border-4 border-white/80 md:h-32 md:w-32"
+                style={{ boxShadow: "0 4px 16px rgba(0,0,0,0.12)" }}
+              />
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[28px] text-burgundy">
+                Proudly Serving El Dorado County
+              </h3>
+              <p className="max-w-[600px] text-[17px] leading-relaxed text-dark-gray">
+                Based in Placerville, we serve homes and businesses throughout El
+                Dorado County including Cameron Park, Shingle Springs, Diamond
+                Springs, El Dorado Hills, and surrounding communities.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

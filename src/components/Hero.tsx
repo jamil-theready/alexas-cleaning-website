@@ -1,34 +1,70 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
+const sparklePositions = [
+  { top: "8%", left: "75%", delay: 0, size: 8 },
+  { top: "20%", left: "85%", delay: 0.8, size: 6 },
+  { top: "45%", left: "90%", delay: 1.6, size: 10 },
+  { top: "65%", left: "80%", delay: 2.4, size: 7 },
+  { top: "15%", left: "70%", delay: 3.2, size: 5 },
+];
+
+function Sparkle({ top, left, delay, size }: { top: string; left: string; delay: number; size: number }) {
+  return (
+    <div
+      className="absolute animate-sparkle"
+      style={{ top, left, animationDelay: `${delay}s` }}
+    >
+      <svg width={size * 2} height={size * 2} viewBox="0 0 24 24" fill="none">
+        <path
+          d="M12 2l2.09 6.26L20 10.27l-5.91 1.73L12 18.26l-2.09-6.26L4 10.27l5.91-1.73L12 2z"
+          fill="#fae084"
+        />
+      </svg>
+    </div>
+  );
+}
+
 export default function Hero() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <section className="relative overflow-hidden bg-light-bg pt-28 pb-20 md:pt-36 md:pb-28">
-      <div className="mx-auto flex max-w-[1170px] flex-col gap-12 px-6 md:flex-row md:items-center">
+      <div className="mx-auto flex max-w-7xl flex-col gap-12 px-6 md:flex-row md:items-center">
         {/* Content - 62% width on desktop */}
-        <div className="md:w-[62%]">
+        <div className={`md:w-[62%] transition-all duration-700 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           <p className="mb-4 text-[14px] font-semibold tracking-widest text-red-highlight uppercase">
             Professional Cleaning in El Dorado County
           </p>
-          <h1 className="mb-6 font-[family-name:var(--font-serif)] text-[36px] leading-tight text-burgundy md:text-[54px]">
-            Placerville&apos;s Top-Rated Cleaning Service
+          <h1 className="mb-6 font-[family-name:var(--font-serif)] text-[36px] leading-tight text-burgundy md:text-[60px]" style={{ letterSpacing: "-0.04em" }}>
+            Placerville&apos;s Top-Rated House &amp; Commercial Cleaning Service
           </h1>
           <p className="mb-4 max-w-[540px] text-[18px] leading-relaxed text-dark-gray">
             Professional cleaning you can count on. We keep your home or
             business spotless so you can focus on what matters.
           </p>
-          {/* USP Banner */}
-          <div className="mb-8 inline-flex items-center gap-3 rounded-full bg-yellow/40 px-5 py-2.5">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="shrink-0">
-              <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="#3d0719"/>
-            </svg>
-            <span className="text-[15px] font-semibold text-burgundy">
-              No Contracts. No Rescheduling Fees.
-            </span>
+          {/* USP Badges */}
+          <div className="mb-8 flex flex-wrap items-center gap-3">
+            {["Instant Quotes", "No Rescheduling Fees", "No Contracts"].map((badge) => (
+              <div key={badge} className="inline-flex items-center gap-2 rounded-full bg-yellow/40 px-4 py-2.5">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" className="shrink-0">
+                  <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 8.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 11.586l4.293-4.293a1 1 0 111.414 1.414z" fill="#d4a843"/>
+                </svg>
+                <span className="text-[14px] font-semibold text-burgundy">
+                  {badge}
+                </span>
+              </div>
+            ))}
           </div>
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
             <a
-              href="tel:+15302146361"
-              className="inline-block rounded-full bg-burgundy px-[60px] py-[22px] text-center text-[18px] font-semibold text-white transition-opacity hover:opacity-90"
+              href="/contact"
+              className="group relative inline-block overflow-hidden rounded-full bg-burgundy px-[60px] py-[22px] text-center text-[18px] font-semibold text-white transition-all hover:shadow-lg"
             >
-              Get an Instant Quote
+              <span className="relative z-10">Get an Instant Quote</span>
+              <span className="absolute inset-0 bg-white/10 translate-y-full transition-transform duration-300 group-hover:translate-y-0" />
             </a>
             <span className="text-[14px] text-gray">
               Call or text anytime
@@ -58,27 +94,24 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Image placeholder - 38% width on desktop */}
-        <div className="md:w-[38%]">
+        {/* Hero Image - 38% width on desktop */}
+        <div className={`relative md:w-[38%] transition-all duration-700 delay-200 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
+          {/* Floating sparkles */}
+          {sparklePositions.map((s, i) => (
+            <Sparkle key={i} {...s} />
+          ))}
           <div
-            className="flex aspect-[4/5] items-center justify-center bg-yellow-light text-center text-[16px] text-dark-gray"
+            className="aspect-[4/5] overflow-hidden animate-float bg-burgundy/5"
             style={{
               borderRadius: "156px 156px 16px 16px",
+              boxShadow: "0 12px 32px rgba(0,0,0,0.08)",
             }}
           >
-            <div>
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" className="mx-auto mb-4 text-burgundy opacity-30">
-                <rect x="8" y="8" width="48" height="48" rx="8" stroke="currentColor" strokeWidth="2"/>
-                <circle cx="24" cy="24" r="6" stroke="currentColor" strokeWidth="2"/>
-                <path d="M8 44l12-12 8 8 12-16 16 20" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
-              </svg>
-              <p className="font-[family-name:var(--font-serif)] text-[20px] text-burgundy">
-                Hero Image
-              </p>
-              <p className="mt-2 text-[14px] text-gray">
-                Professional cleaner at work
-              </p>
-            </div>
+            <img
+              src="/images/cleaning-lady.png"
+              alt="Professional cleaner from Alexa's Cleaning Services in Placerville"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
       </div>

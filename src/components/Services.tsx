@@ -1,3 +1,26 @@
+import Link from "next/link";
+
+const serviceSlugMap: Record<string, string> = {
+  "House Cleaning": "/services/house-cleaning",
+  "Deep Cleaning": "/services/deep-cleaning",
+  "Commercial & Office Cleaning": "/services/commercial-cleaning",
+  "Post-Construction Cleanup": "/services/post-construction-cleaning",
+  "Airbnb & Vacation Rental Turnover": "/services/airbnb-cleaning",
+  "Property & Apartment Cleaning": "/services/apartment-cleaning",
+  "Church Cleaning": "/services/church-cleaning",
+  "Warehouse Cleaning": "/services/warehouse-cleaning",
+  "Gym Cleaning": "/services/gym-cleaning",
+  "Daycare Cleaning": "/services/daycare-cleaning",
+  "Medical Cleaning": "/services/medical-cleaning",
+  "Eco-Friendly Cleaning": "/services/eco-cleaning",
+  "Floor Cleaning": "/services/floor-cleaning",
+  "Disinfecting & Sanitization": "/services/disinfecting-cleaning",
+  "Retail Store Cleaning": "/services/retail-cleaning",
+  "Weekly Cleaning": "/services/weekly-cleaning",
+  "Monthly Cleaning": "/services/monthly-cleaning",
+  "Move-In/Move-Out Cleaning": "/services/moving-cleaning",
+};
+
 const services = [
   {
     title: "House Cleaning",
@@ -80,19 +103,197 @@ const services = [
       </svg>
     ),
   },
+  {
+    title: "Church Cleaning",
+    description:
+      "Respectful, thorough cleaning for houses of worship. Sanctuaries, fellowship halls, classrooms, and restrooms kept spotless for your congregation.",
+    frequency: "Weekly or custom schedule",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <path d="M18 4v8M14 8h8" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M10 16l8-4 8 4v14H10V16z" stroke="#3d0719" strokeWidth="2" strokeLinejoin="round"/>
+        <path d="M15 30v-6a3 3 0 016 0v6" stroke="#3d0719" strokeWidth="1.5"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Warehouse Cleaning",
+    description:
+      "Industrial strength cleaning for warehouses and distribution centers. Floor scrubbing, break room sanitization, and high dust removal to keep your facility safe.",
+    frequency: "Weekly, biweekly, or monthly",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="4" y="12" width="28" height="20" rx="1" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M4 12l14-8 14 8" stroke="#3d0719" strokeWidth="2" strokeLinejoin="round"/>
+        <line x1="12" y1="20" x2="12" y2="32" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="24" y1="20" x2="24" y2="32" stroke="#3d0719" strokeWidth="1.5"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Gym Cleaning",
+    description:
+      "Keep your fitness facility fresh and hygienic. Equipment sanitization, locker room disinfection, and floor care that meets the demands of high traffic gyms.",
+    frequency: "Daily or custom schedule",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="15" y="14" width="6" height="8" rx="1" stroke="#3d0719" strokeWidth="2"/>
+        <rect x="8" y="16" width="7" height="4" rx="1" stroke="#3d0719" strokeWidth="1.5"/>
+        <rect x="21" y="16" width="7" height="4" rx="1" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="5" y1="18" x2="8" y2="18" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <line x1="28" y1="18" x2="31" y2="18" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Daycare Cleaning",
+    description:
+      "Specialized cleaning for childcare centers using nontoxic, child safe products. Toy sanitization, play area disinfection, and restroom care for healthy little ones.",
+    frequency: "Daily or custom schedule",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <circle cx="18" cy="12" r="5" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M10 28c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <circle cx="28" cy="10" r="3" stroke="#3d0719" strokeWidth="1.5"/>
+        <circle cx="8" cy="10" r="3" stroke="#3d0719" strokeWidth="1.5"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Medical Cleaning",
+    description:
+      "Healthcare grade cleaning for medical and dental offices. OSHA compliant protocols, hospital grade disinfectants, and meticulous exam room sanitization.",
+    frequency: "Daily or five days per week",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="8" y="8" width="20" height="20" rx="3" stroke="#3d0719" strokeWidth="2"/>
+        <line x1="18" y1="13" x2="18" y2="23" stroke="#3d0719" strokeWidth="2.5" strokeLinecap="round"/>
+        <line x1="13" y1="18" x2="23" y2="18" stroke="#3d0719" strokeWidth="2.5" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Eco-Friendly Cleaning",
+    description:
+      "Green cleaning with nontoxic, biodegradable products. Safe for children, pets, and allergy sensitive households. Same thorough results, gentler on the planet.",
+    frequency: "One-time, weekly, biweekly, or monthly",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <path d="M18 32V18" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M18 18c-4-6-12-4-12-12 8 0 10 6 12 12z" stroke="#3d0719" strokeWidth="2" strokeLinejoin="round"/>
+        <path d="M18 22c4-6 12-4 12-12-8 0-10 6-12 12z" stroke="#3d0719" strokeWidth="2" strokeLinejoin="round"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Floor Cleaning",
+    description:
+      "Dedicated floor care for hardwood, tile, laminate, and vinyl surfaces. Grout scrubbing, stain removal, and surface specific treatment to restore and protect your floors.",
+    frequency: "One-time or recurring",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="4" y="24" width="28" height="4" rx="1" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M8 24V10l6-4v18" stroke="#3d0719" strokeWidth="1.5"/>
+        <path d="M14 24V10l6-4v18" stroke="#3d0719" strokeWidth="1.5"/>
+        <path d="M20 24V10l6-4v18" stroke="#3d0719" strokeWidth="1.5"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Disinfecting & Sanitization",
+    description:
+      "Professional disinfection using EPA approved products. Targets high touch surfaces and eliminates bacteria and viruses for a healthier home or office.",
+    frequency: "One-time, weekly, or seasonal",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <path d="M14 4h8v6h-8V4z" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M12 10h12l2 4H10l2-4z" stroke="#3d0719" strokeWidth="1.5"/>
+        <rect x="10" y="14" width="16" height="18" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M18 19v6M15 22h6" stroke="#3d0719" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Retail Store Cleaning",
+    description:
+      "Keep your storefront inviting for customers. Sales floor maintenance, fitting room sanitization, and display dusting that makes a great first impression.",
+    frequency: "Daily or custom schedule",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="6" y="14" width="24" height="18" rx="1" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M6 14l3-8h18l3 8" stroke="#3d0719" strokeWidth="2" strokeLinejoin="round"/>
+        <rect x="14" y="22" width="8" height="10" stroke="#3d0719" strokeWidth="1.5"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Weekly Cleaning",
+    description:
+      "Consistent weekly service that keeps your home in peak condition. Same team, same day, same thorough results. Buildup never stands a chance.",
+    frequency: "Weekly",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="6" y="8" width="24" height="22" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <line x1="6" y1="14" x2="30" y2="14" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="12" y1="4" x2="12" y2="10" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <line x1="24" y1="4" x2="24" y2="10" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <circle cx="13" cy="20" r="1.5" fill="#3d0719"/>
+        <circle cx="18" cy="20" r="1.5" fill="#3d0719"/>
+        <circle cx="23" cy="20" r="1.5" fill="#3d0719"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Monthly Cleaning",
+    description:
+      "A thorough monthly refresh for homes that stay relatively tidy. More detailed than a routine visit, perfect for maintaining a clean baseline all year.",
+    frequency: "Monthly",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="6" y="8" width="24" height="22" rx="2" stroke="#3d0719" strokeWidth="2"/>
+        <line x1="6" y1="14" x2="30" y2="14" stroke="#3d0719" strokeWidth="1.5"/>
+        <line x1="12" y1="4" x2="12" y2="10" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <line x1="24" y1="4" x2="24" y2="10" stroke="#3d0719" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M14 21l3 3 5-6" stroke="#3d0719" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Move-In/Move-Out Cleaning",
+    description:
+      "Comprehensive cleaning for moving day. Inside appliances, cabinets, closets, and every surface inspected by landlords. Protect your deposit or start fresh.",
+    frequency: "One-time",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect x="8" y="12" width="16" height="16" rx="1" stroke="#3d0719" strokeWidth="2"/>
+        <path d="M12 12V8h12v12h-4" stroke="#3d0719" strokeWidth="1.5"/>
+        <path d="M14 20h6M14 24h4" stroke="#3d0719" strokeWidth="1.5" strokeLinecap="round"/>
+        <path d="M26 18l4-2v12l-4-2" stroke="#3d0719" strokeWidth="1.5" strokeLinejoin="round"/>
+      </svg>
+    ),
+  },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="bg-white py-20 md:py-28">
-      <div className="mx-auto max-w-[1170px] px-6">
+    <section id="services" className="bg-white py-16 md:py-24">
+      <div className="mx-auto max-w-7xl px-6">
         <div className="mb-14 text-center">
           <p className="mb-3 text-[14px] font-semibold tracking-widest text-red-highlight uppercase">
             What We Offer
           </p>
-          <h2 className="font-[family-name:var(--font-serif)] text-[32px] text-burgundy md:text-[44px]">
-            Our Cleaning Services
-          </h2>
+          <div className="relative inline-block">
+            <h2 className="font-[family-name:var(--font-serif)] text-[32px] text-burgundy md:text-[44px]">
+              Our Cleaning Services
+            </h2>
+            <div className="mx-auto mt-2 flex items-center justify-center gap-3">
+              <span className="h-px w-12 bg-burgundy/30" />
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-yellow">
+                <path d="M12 2l2.09 6.26L20 10.27l-5.91 1.73L12 18.26l-2.09-6.26L4 10.27l5.91-1.73L12 2z" fill="currentColor"/>
+              </svg>
+              <span className="h-px w-12 bg-burgundy/30" />
+            </div>
+          </div>
           <p className="mx-auto mt-4 max-w-[600px] text-[17px] text-dark-gray">
             From routine house cleaning to specialized commercial work, we
             deliver consistent results across Placerville and El Dorado County.
@@ -103,24 +304,38 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="flex flex-col bg-light-bg p-8 transition-shadow hover:shadow-lg"
+              className="flex flex-col bg-light-bg p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-burgundy/[0.03]"
               style={{
-                borderRadius: "40px 40px 16px 16px",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "20px",
+                border: "1px solid rgba(61,7,25,0.06)",
               }}
             >
               <div className="mb-5 flex h-[56px] w-[56px] items-center justify-center rounded-2xl bg-burgundy/5">
                 {service.icon}
               </div>
               <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[22px] text-burgundy">
-                {service.title}
+                {serviceSlugMap[service.title] ? (
+                  <Link href={serviceSlugMap[service.title]} className="hover:underline">
+                    {service.title}
+                  </Link>
+                ) : (
+                  service.title
+                )}
               </h3>
               <p className="mb-4 flex-1 text-[15px] leading-relaxed text-dark-gray">
                 {service.description}
               </p>
-              <p className="text-[13px] font-semibold tracking-wide text-red-highlight uppercase">
+              <p className="mb-4 text-[13px] font-semibold tracking-wide text-red-highlight uppercase">
                 {service.frequency}
               </p>
+              {serviceSlugMap[service.title] && (
+                <Link
+                  href={serviceSlugMap[service.title]}
+                  className="text-[14px] font-semibold text-burgundy transition-colors hover:text-red-highlight"
+                >
+                  Learn More &rarr;
+                </Link>
+              )}
             </div>
           ))}
         </div>

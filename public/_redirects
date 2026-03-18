@@ -1,0 +1,89 @@
+# 301 Redirect Map for alexascleaningplacerville.com
+# Generated from GSC 404 audit - 43 redirects
+# Format: /old-path /new-path 301
+
+# Blog redirects (old posts that no longer exist)
+/blog/can-dry-cleaning-kill-bedbugs /blog 301
+/blog/can-dry-cleaning-remove-mold-what-you-need-to-know /blog 301
+/blog/can-dry-cleaning-remove-stains /blog 301
+/blog/how-often-can-you-dry-clean-dress-shirts-a-complete-guide /blog 301
+/blog/move-out-cleaning-in-placerville-how-to-make-your-home-look-like-new /blog 301
+/blog/move-out-cleaning-in-sacramento-how-to-make-your-home-look-like-new /blog 301
+/blog/the-hidden-germ-spots-in-your-home-you-re-probably-forgetting-to-clean /blog 301
+/blog/the-science-of-a-fresh-smelling-home-why-some-houses-always-smell-clean /blog 301
+/blog/the-ultimate-guide-to-pet-hair-removal-from-carpets-sofas-and-clothes /blog 301
+/blog/what-professional-cleaners-know-about-mattress-cleaning-that-you-don-t /blog 301
+
+# Lander page
+/lander / 301
+
+# Service redirects - Airbnb cleaning
+/service/airbnb-cleaning-services-in-placerville-ca /services/airbnb-cleaning 301
+/service/airbnb-cleaning-services-in-sacramento-ca /services/airbnb-cleaning 301
+/service/airbnb-cleaning-services-near-me-in-placerville-ca /services/airbnb-cleaning 301
+
+# Service redirects - Apartment cleaning
+/service/apartment-cleaning-services-in-sacramento-ca /services/apartment-cleaning 301
+/service/apartment-cleaning-services-in-placerville-ca /services/apartment-cleaning 301
+
+# Service redirects - House cleaning
+/service/house-cleaning-services-in-roseville-ca /services/house-cleaning 301
+/service/house-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/house-cleaning-services-in-yuba-city-ca /services/house-cleaning 301
+/service/house-cleaning-services-in-placerville-ca /services/house-cleaning 301
+
+# Service redirects - Deep cleaning
+/service/deep-cleaning-services-in-sacramento-ca /services/deep-cleaning 301
+/service/deep-cleaning-services-in-placerville-ca /services/deep-cleaning 301
+
+# Service redirects - Post-construction cleaning
+/service/post-construction-cleaning-services-in-placerville-ca /services/post-construction-cleaning 301
+/service/post-construction-cleaning-services-in-sacramento-ca /services/post-construction-cleaning 301
+/service/post-construction-cleaning-services-near-me-in-placerville-ca /services/post-construction-cleaning 301
+
+# Service redirects - Church cleaning
+/service/church-cleaning-services-in-sacramento-ca /services/church-cleaning 301
+/service/church-cleaning-services-in-placerville-ca /services/church-cleaning 301
+
+# Service redirects - Warehouse cleaning
+/service/warehouse-cleaning-services-in-sacramento-ca /services/warehouse-cleaning 301
+/service/warehouse-cleaning-services-in-placerville-ca /services/warehouse-cleaning 301
+
+# Service redirects - Services without dedicated pages (mapped to closest match)
+/service/bi-weekly-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/bi-weekly-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/carpet-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/carpet-cleaning-services-in-yuba-city-ca /services/house-cleaning 301
+/service/carpet-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/daycare-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/daycare-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/daycare-cleaning-services-near-me-in-placerville-ca /services/house-cleaning 301
+/service/disinfecting-sanitzation-cleaning-services-in-sacramento-ca /services/deep-cleaning 301
+/service/professional-disinfecting-cleaning-services-in-placerville /services/deep-cleaning 301
+/service/eco-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/eco-friendly-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/floor-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/floor-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/gym-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/gym-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/gym-cleaning-services-near-me-in-placerville-ca /services/house-cleaning 301
+/service/janitorial-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/janitorial-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/medical-cleaning-services-in-sacramento-ca /services/deep-cleaning 301
+/service/medical-cleaning-services-in-placerville-ca /services/deep-cleaning 301
+/service/monthly-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/monthly-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/moving-cleaning-services-in-sacramento-ca /services/deep-cleaning 301
+/service/move-out-cleaning-services-in-placerville-ca /services/deep-cleaning 301
+/service/office-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/office-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/office-cleaning-services-near-me-in-placerville-ca /services/house-cleaning 301
+/service/one-time-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/one-time-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/property-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/property-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/retail-store-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/retail-store-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/weekly-cleaning-services-in-sacramento-ca /services/house-cleaning 301
+/service/weekly-cleaning-services-in-placerville-ca /services/house-cleaning 301
+/service/window-cleaning-services-in-roseville-ca /services/house-cleaning 301

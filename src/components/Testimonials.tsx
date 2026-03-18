@@ -1,26 +1,56 @@
 const testimonials = [
   {
-    name: "Sarah M.",
+    name: "Sarah T.",
     location: "Placerville, CA",
-    text: "Alexa's team has been cleaning our home bi-weekly for over a year now. They are always on time, incredibly thorough, and so easy to communicate with. Our house has never looked better. I recommend them to everyone I know.",
+    text: "Alexa and her team have been a lifesaver for our office in Placerville. They are professional, thorough, and always on time. Our workspace has never looked better. Highly recommend their commercial cleaning services.",
     stars: 5,
   },
   {
-    name: "David & Karen R.",
-    location: "Cameron Park, CA",
-    text: "We hired them for a post-construction cleanup after our kitchen remodel. The amount of dust and debris was overwhelming, but they left every surface spotless. Even the inside of our cabinets were wiped clean. Worth every penny.",
+    name: "James L.",
+    location: "Placerville, CA",
+    text: "I have tried several cleaning companies in Placerville, but Alexa and her team stand out. They pay attention to every detail and leave my home spotless every time. Trustworthy and reliable.",
     stars: 5,
   },
   {
-    name: "Jennifer L.",
-    location: "El Dorado Hills, CA",
-    text: "I manage three Airbnb properties in the area and Alexa's team handles all my turnovers. They are fast, reliable, and my guests consistently comment on how clean the space is. My ratings went up after I started working with them.",
+    name: "Emily R.",
+    location: "Placerville, CA",
+    text: "Alexa and her team transformed my home. Their residential cleaning service is top-notch. They are friendly, professional, and truly care about their work. My house has never felt so fresh.",
     stars: 5,
   },
   {
-    name: "Mark T.",
-    location: "Diamond Springs, CA",
-    text: "What I appreciate most is the no-contract policy. I had to skip a month when we traveled and there was zero hassle. They just picked right back up when we got home. Professional, flexible, and genuinely nice people.",
+    name: "Deborah A.",
+    location: "Placerville, CA",
+    text: "Your team is always helpful with speedy turnover and friendly too. Have used them for 15 years. Could not be happier with the consistent quality and reliability.",
+    stars: 5,
+  },
+  {
+    name: "Michael T.",
+    location: "Placerville, CA",
+    text: "You guys are awesome. I have been using them for almost 4 years. They are quick, friendly, and reliable. My home always looks and smells amazing after every visit.",
+    stars: 5,
+  },
+  {
+    name: "Ben B.",
+    location: "Placerville, CA",
+    text: "Your team has cleaned our Placerville office for a year. Consistent, reliable, and fantastic service. We have never had a single complaint from our staff.",
+    stars: 5,
+  },
+  {
+    name: "Cory D.",
+    location: "Placerville, CA",
+    text: "Best in Placerville. My home has never been cleaner. Trustworthy and reliable every single time. Would not go anywhere else for cleaning services.",
+    stars: 5,
+  },
+  {
+    name: "Han A.",
+    location: "El Dorado County, CA",
+    text: "The cleaners are friendly, efficient, and do a fantastic job every time. I appreciate how thorough they are and how easy scheduling is with no contracts.",
+    stars: 5,
+  },
+  {
+    name: "Maria G.",
+    location: "Placerville, CA",
+    text: "I have tried several cleaning companies in Placerville, but Alexa and her team stand out. They pay attention to every detail and leave my home spotless every time. Trustworthy and reliable.",
     stars: 5,
   },
 ];
@@ -35,8 +65,8 @@ function StarIcon() {
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="bg-white py-20 md:py-28">
-      <div className="mx-auto max-w-[1170px] px-6">
+    <section id="testimonials" className="bg-yellow-light py-16 md:py-24">
+      <div className="mx-auto max-w-7xl px-6">
         <div className="mb-14 text-center">
           <p className="mb-3 text-[14px] font-semibold tracking-widest text-red-highlight uppercase">
             What Our Clients Say
@@ -46,12 +76,12 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((t) => (
             <div
               key={t.name}
               className="rounded-2xl bg-white p-8 transition-shadow hover:shadow-md"
-              style={{ boxShadow: "0 4px 16px rgba(0,0,0,0.08)" }}
+              style={{ boxShadow: "0 2px 4px rgba(0,0,0,0.25)" }}
             >
               <div className="mb-4 flex gap-1">
                 {[...Array(t.stars)].map((_, i) => (
@@ -74,6 +104,20 @@ export default function Testimonials() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-10 text-center">
+          <a
+            href="https://www.google.com/maps/place/Alexa's+Cleaning+Services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-[15px] font-semibold text-burgundy transition-colors hover:text-red-highlight"
+          >
+            See all reviews on Google
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
