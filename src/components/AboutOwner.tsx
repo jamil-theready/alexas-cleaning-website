@@ -8,7 +8,7 @@ export default function AboutOwner() {
             <div className="relative">
               <img
                 src="/images/cleaning-lady.png"
-                alt="K.E. Coleman, Owner of Alexa's Cleaning Services"
+                alt="Alejandra, Owner of Alexa's Cleaning Services in Placerville"
                 className="h-[320px] w-[320px] rounded-full border-4 border-[#c4365a] object-cover md:h-[400px] md:w-[400px]"
               />
             </div>
@@ -20,15 +20,17 @@ export default function AboutOwner() {
               Meet the Owner
             </p>
             <h2 className="mb-6 font-[family-name:var(--font-serif)] text-[32px] leading-tight text-white md:text-[48px]">
-              K.E. Coleman, M.B.A
+              Alejandra Ortiz
             </h2>
             <p className="mb-8 text-[17px] leading-relaxed text-white/70">
-              With a Master of Business Administration and a lifelong passion for
-              creating clean, healthy spaces, K.E. Coleman founded Alexa&apos;s
-              Cleaning Services to bring professional grade cleaning to every
-              home in El Dorado County. She leads every aspect of the business
-              with the same attention to detail you will find in every clean we
-              deliver.
+              Alejandra started cleaning homes in Placerville over 15 years ago
+              with nothing but a car full of supplies and a commitment to doing
+              things right. What began as a one-woman operation grew into
+              Alexa&apos;s Cleaning Services, now one of the most trusted
+              cleaning companies in El Dorado County. She still personally
+              trains every member of her team and inspects jobs to make sure
+              they meet her standards. For Alejandra, every home she cleans is
+              a reflection of her name and her word.
             </p>
 
             {/* Urgency Counter */}
@@ -45,16 +47,16 @@ export default function AboutOwner() {
             {/* Stats Row */}
             <div className="flex flex-wrap gap-8">
               <div>
-                <p className="text-[28px] font-bold text-yellow">307+</p>
-                <p className="text-[14px] text-white/60">Homes</p>
+                <p className="text-[28px] font-bold text-yellow">15+</p>
+                <p className="text-[14px] text-white/60">Years in Business</p>
               </div>
               <div>
-                <p className="text-[28px] font-bold text-yellow">86+</p>
-                <p className="text-[14px] text-white/60">Customers</p>
+                <p className="text-[28px] font-bold text-yellow">500+</p>
+                <p className="text-[14px] text-white/60">Homes Cleaned</p>
               </div>
               <div>
                 <p className="text-[28px] font-bold text-yellow">5.0</p>
-                <p className="text-[14px] text-white/60">Stars</p>
+                <p className="text-[14px] text-white/60">Google Rating</p>
               </div>
             </div>
           </div>

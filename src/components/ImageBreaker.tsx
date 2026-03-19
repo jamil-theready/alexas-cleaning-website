@@ -52,16 +52,16 @@ export default function ImageBreaker() {
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
           <div>
             <p className="font-[family-name:var(--font-serif)] text-[32px] text-white md:text-[44px]">
-              307+
+              500+
             </p>
-            <p className="text-[14px] text-white/70">Residencies Cleaned</p>
+            <p className="text-[14px] text-white/70">Homes Cleaned</p>
           </div>
           <div className="hidden h-12 w-px bg-white/20 sm:block" />
           <div>
             <p className="font-[family-name:var(--font-serif)] text-[32px] text-white md:text-[44px]">
-              86+
+              15+
             </p>
-            <p className="text-[14px] text-white/70">Satisfied Customers</p>
+            <p className="text-[14px] text-white/70">Years in Business</p>
           </div>
         </div>
       </div>

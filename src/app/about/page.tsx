@@ -7,7 +7,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "About Alexa's Cleaning Services | Placerville CA",
   description:
-    "Learn about Alexa's Cleaning Services in Placerville CA. Licensed, insured, and trusted by hundreds of families across El Dorado County. Founded by K.E. Coleman, M.B.A.",
+    "Learn about Alexa's Cleaning Services in Placerville CA. Founded by Alejandra Ortiz with 15+ years of experience. Licensed, insured, and trusted across El Dorado County.",
 };
 
 export default function AboutPage() {
@@ -27,24 +27,48 @@ export default function AboutPage() {
               Meet the Owner
             </h2>
             <p className="mb-6 text-[17px] leading-relaxed text-dark-gray">
-              Alexa&apos;s Cleaning Services was founded by K.E. Coleman, M.B.A.
-              What started as a commitment to providing honest, reliable cleaning
-              for local families has grown into one of the most trusted cleaning
-              companies in El Dorado County.
+              Alejandra Ortiz started cleaning homes in Placerville over 15
+              years ago with nothing but a car full of supplies and a promise
+              to do things the right way. What began as a solo operation
+              quickly grew through word of mouth. Neighbors told neighbors.
+              Clients became friends. And Alexa&apos;s Cleaning Services became
+              one of the most trusted names in El Dorado County.
             </p>
             <p className="mb-6 text-[17px] leading-relaxed text-dark-gray">
-              Every detail matters. That belief drives everything we do. From the
-              products we use to the people we hire, quality is never an
-              afterthought. We show up on time. We follow through on every
-              promise. And we treat your space with the same respect we would
-              give our own home.
+              Alejandra still personally trains every team member and holds
+              each job to her own standards. She believes that every home
+              deserves the same level of care, whether it is a first-time deep
+              clean or a weekly visit. That hands-on approach is what keeps
+              families coming back year after year.
             </p>
             <p className="text-[17px] leading-relaxed text-dark-gray">
-              Our mission is simple. Deliver exceptional cleaning with zero
-              hassle. No contracts locking you in. No fees when life changes your
-              plans. Just reliable, professional service from a team that
-              genuinely cares about your satisfaction.
+              No contracts. No rescheduling fees. No hidden charges. Just
+              honest, reliable cleaning from a team that treats your home like
+              their own. That is the standard Alejandra set 15 years ago, and
+              it has not changed.
             </p>
+          </div>
+        </section>
+
+        {/* Team Photo */}
+        <section className="bg-light-bg py-16 md:py-24">
+          <div className="mx-auto max-w-5xl px-6 text-center">
+            <p className="mb-3 text-[14px] font-semibold tracking-widest text-burgundy/50 uppercase">
+              Our Team
+            </p>
+            <h2 className="mb-4 font-[family-name:var(--font-serif)] text-[28px] text-burgundy md:text-[40px]">
+              The People Behind Every Clean
+            </h2>
+            <p className="mx-auto mb-10 max-w-[600px] text-[17px] leading-relaxed text-dark-gray">
+              Every member of our crew is hand-picked and personally trained by
+              Alejandra. We show up in uniform, on time, and ready to make your
+              space shine.
+            </p>
+            <img
+              src="/images/alexas-cleaning-team-placerville.jpg"
+              alt="Alexa's Cleaning Services team in Placerville CA ready to clean your home"
+              className="w-full rounded-2xl object-cover shadow-lg"
+            />
           </div>
         </section>
 
@@ -76,14 +100,14 @@ export default function AboutPage() {
                     "Life happens. Change your appointment anytime without penalty.",
                 },
                 {
-                  label: "307+ Residencies Cleaned",
+                  label: "500+ Homes Cleaned",
                   detail:
                     "Hundreds of homes and businesses across El Dorado County.",
                 },
                 {
-                  label: "86+ Satisfied Customers",
+                  label: "15+ Years of Experience",
                   detail:
-                    "Real families who count on us week after week.",
+                    "Serving Placerville and surrounding areas since day one.",
                 },
               ].map((item, i) => (
                 <div
