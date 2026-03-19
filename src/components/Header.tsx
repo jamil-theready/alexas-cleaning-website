@@ -36,8 +36,33 @@ export default function Header() {
 
   return (
     <>
+    {/* Top Bar */}
+    <div className="fixed top-0 left-0 right-0 z-50 bg-burgundy">
+      <div className="mx-auto flex max-w-7xl items-center justify-center gap-6 px-6 py-1.5 sm:gap-10">
+        <a
+          href="mailto:alexascleaningplacerville@gmail.com"
+          className="flex items-center gap-1.5 text-[12px] text-white/80 transition-colors hover:text-white"
+        >
+          <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          <span className="hidden sm:inline">alexascleaningplacerville@gmail.com</span>
+          <span className="sm:hidden">Email Us</span>
+        </a>
+        <a
+          href="tel:+15302146361"
+          className="flex items-center gap-1.5 text-[12px] font-medium text-white transition-colors hover:text-yellow"
+        >
+          <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          (530) 214-6361
+        </a>
+      </div>
+    </div>
+
     <header
-      className="fixed top-0 left-0 right-0 z-50 bg-white"
+      className="fixed top-[32px] left-0 right-0 z-50 bg-white"
       style={{ boxShadow: "0 1px 4px rgba(0,0,0,0.06)" }}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
@@ -76,15 +101,12 @@ export default function Header() {
           >
             Contact
           </Link>
-          <a
-            href="tel:+15302146361"
-            className="flex items-center gap-2 rounded-full bg-red-highlight px-6 py-3 text-[15px] font-semibold text-white transition-opacity hover:opacity-90"
+          <Link
+            href="/contact"
+            className="rounded-full bg-burgundy px-6 py-3 text-[15px] font-semibold text-white transition-opacity hover:opacity-90"
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" className="shrink-0">
-              <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/>
-            </svg>
-            (530) 214-6361
-          </a>
+            Book Cleaning
+          </Link>
         </nav>
 
         {/* Mobile Hamburger */}

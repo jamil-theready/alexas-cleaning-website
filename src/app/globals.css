@@ -30,6 +30,25 @@ body {
   background: var(--color-white);
 }
 
+/* Override browser autofill blue with light maroon */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #f5e8eb inset !important;
+  -webkit-text-fill-color: var(--color-dark-gray) !important;
+  border-color: rgba(61, 7, 25, 0.2) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Focus state for form inputs */
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #f5e8eb !important;
+}
+
 /* Serif heading letter-spacing */
 h1, h2, h3 {
   letter-spacing: -0.04em;

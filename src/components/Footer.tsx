@@ -59,27 +59,36 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Services */}
           <div>
             <h4 className="mb-4 text-[14px] font-semibold tracking-widest uppercase text-white/50">
-              Quick Links
+              Services
             </h4>
             <ul className="flex flex-col gap-2 text-[15px] text-white/70">
-              <li>
-                <Link href="/" className="transition-colors hover:text-yellow">Home</Link>
-              </li>
-              <li>
-                <Link href="/about" className="transition-colors hover:text-yellow">About</Link>
-              </li>
-              <li>
-                <Link href="/#services" className="transition-colors hover:text-yellow">Services</Link>
-              </li>
-              <li>
-                <Link href="/blog" className="transition-colors hover:text-yellow">Blog</Link>
-              </li>
-              <li>
-                <Link href="/contact" className="transition-colors hover:text-yellow">Contact</Link>
-              </li>
+              <li><Link href="/services/house-cleaning" className="transition-colors hover:text-yellow">House Cleaning</Link></li>
+              <li><Link href="/services/deep-cleaning" className="transition-colors hover:text-yellow">Deep Cleaning</Link></li>
+              <li><Link href="/services/commercial-cleaning" className="transition-colors hover:text-yellow">Commercial Cleaning</Link></li>
+              <li><Link href="/services/post-construction-cleaning" className="transition-colors hover:text-yellow">Post-Construction</Link></li>
+              <li><Link href="/services/airbnb-cleaning" className="transition-colors hover:text-yellow">Airbnb Cleaning</Link></li>
+              <li><Link href="/services/apartment-cleaning" className="transition-colors hover:text-yellow">Apartment Cleaning</Link></li>
+              <li><Link href="/services/church-cleaning" className="transition-colors hover:text-yellow">Church Cleaning</Link></li>
+              <li><Link href="/services/warehouse-cleaning" className="transition-colors hover:text-yellow">Warehouse Cleaning</Link></li>
+            </ul>
+          </div>
+
+          {/* Service Areas */}
+          <div>
+            <h4 className="mb-4 text-[14px] font-semibold tracking-widest uppercase text-white/50">
+              Service Areas
+            </h4>
+            <ul className="flex flex-col gap-2 text-[15px] text-white/70">
+              <li><Link href="/areas/placerville" className="transition-colors hover:text-yellow">Placerville</Link></li>
+              <li><Link href="/areas/cameron-park" className="transition-colors hover:text-yellow">Cameron Park</Link></li>
+              <li><Link href="/areas/shingle-springs" className="transition-colors hover:text-yellow">Shingle Springs</Link></li>
+              <li><Link href="/areas/diamond-springs" className="transition-colors hover:text-yellow">Diamond Springs</Link></li>
+              <li><Link href="/areas/el-dorado-hills" className="transition-colors hover:text-yellow">El Dorado Hills</Link></li>
+              <li><Link href="/areas/pollock-pines" className="transition-colors hover:text-yellow">Pollock Pines</Link></li>
+              <li><Link href="/areas" className="transition-colors hover:text-yellow">All of El Dorado County</Link></li>
             </ul>
           </div>
 
@@ -103,22 +112,6 @@ export default function Footer() {
               </a>
               <p>📍 Placerville & surrounding areas</p>
             </div>
-          </div>
-
-          {/* Service Areas */}
-          <div>
-            <h4 className="mb-4 text-[14px] font-semibold tracking-widest uppercase text-white/50">
-              Service Areas
-            </h4>
-            <ul className="flex flex-col gap-2 text-[15px] text-white/70">
-              <li>Placerville</li>
-              <li>Cameron Park</li>
-              <li>Shingle Springs</li>
-              <li>Diamond Springs</li>
-              <li>El Dorado Hills</li>
-              <li>Pollock Pines</li>
-              <li>All of El Dorado County</li>
-            </ul>
           </div>
         </div>
 
