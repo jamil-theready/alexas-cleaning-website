@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alexa's Cleaning Services | Professional Cleaning in Placerville, CA",
+  title: "Alexa's Cleaning Services | Placerville, CA",
   description:
-    "Top-rated professional cleaning services in Placerville and El Dorado County. House cleaning, deep cleaning, commercial cleaning, and more. No contracts, no rescheduling fees.",
+    "Top-rated cleaning services in Placerville and El Dorado County. House cleaning, deep cleaning, commercial. Licensed, insured. No contracts.",
   keywords:
     "cleaning services Placerville, house cleaning El Dorado County, deep cleaning Placerville CA, commercial cleaning Placerville, Airbnb cleaning Placerville",
   openGraph: {
@@ -46,7 +46,12 @@ const jsonLd = {
   "geo": { "@type": "GeoCoordinates", "latitude": 38.7296, "longitude": -120.7986 },
   "areaServed": { "@type": "Place", "name": "Placerville, CA and surrounding El Dorado County areas" },
   "priceRange": "$",
-  "sameAs": ["https://www.instagram.com/servicecleaners4you/"],
+  "sameAs": [
+    "https://www.instagram.com/servicecleaners4you/",
+    "https://www.yelp.com/biz/alexas-cleaning-services-placerville",
+    "https://www.google.com/maps/place/Alexa's+Cleaning+Services"
+  ],
+  "knowsAbout": ["house cleaning", "deep cleaning", "commercial cleaning", "post construction cleaning", "Airbnb cleaning", "apartment cleaning", "Placerville cleaning services"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Cleaning Services",
