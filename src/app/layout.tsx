@@ -48,8 +48,9 @@ const jsonLd = {
   "priceRange": "$",
   "sameAs": [
     "https://www.instagram.com/servicecleaners4you/",
-    "https://www.yelp.com/biz/alexas-cleaning-services-placerville",
-    "https://www.google.com/maps/place/Alexa's+Cleaning+Services"
+    "https://www.yelp.com/biz/alexa-s-house-cleaning-placerville",
+    "https://www.google.com/maps/place/Alexa's+Cleaning+Services",
+    "https://nextdoor.com/pages/alexas-cleaning-services/"
   ],
   "aggregateRating": {
     "@type": "AggregateRating",

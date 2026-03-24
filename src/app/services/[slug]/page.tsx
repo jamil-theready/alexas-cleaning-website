@@ -1,11 +1,25 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { services } from "@/data/services";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
 import ServicePageClient from "./ServicePageClient";
+
+const residential = ["house-cleaning", "deep-cleaning", "moving-cleaning", "eco-cleaning", "window-cleaning", "floor-cleaning", "one-time-cleaning", "weekly-cleaning", "bi-weekly-cleaning", "monthly-cleaning"];
+const commercial = ["commercial-cleaning", "church-cleaning", "warehouse-cleaning", "gym-cleaning", "daycare-cleaning", "medical-cleaning", "retail-cleaning", "janitorial-cleaning", "disinfecting-cleaning"];
+
+function getRelatedServices(currentSlug: string) {
+  const isCommercial = commercial.includes(currentSlug);
+  const pool = services.filter((s) => {
+    if (s.slug === currentSlug) return false;
+    if (isCommercial) return commercial.includes(s.slug);
+    return residential.includes(s.slug);
+  });
+  return pool.slice(0, 3);
+}
 
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
@@ -68,6 +82,16 @@ export default async function ServicePage({
     })),
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.alexascleaningplacerville.com" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://www.alexascleaningplacerville.com/#services" },
+      { "@type": "ListItem", position: 3, name: service.title, item: `https://www.alexascleaningplacerville.com/services/${slug}` },
+    ],
+  };
+
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -94,6 +118,10 @@ export default async function ServicePage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -168,6 +196,40 @@ export default async function ServicePage({
             <ServicePageClient faqs={service.faqs} />
           </div>
         </section>
+
+        {/* Related Services */}
+        {(() => {
+          const related = getRelatedServices(slug);
+          if (related.length === 0) return null;
+          return (
+            <section className="bg-light-bg py-16 md:py-24">
+              <div className="mx-auto max-w-7xl px-6">
+                <h2 className="mb-10 text-center font-[family-name:var(--font-serif)] text-[28px] text-burgundy md:text-[40px]">
+                  Related Services
+                </h2>
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+                  {related.map((r) => (
+                    <Link
+                      key={r.slug}
+                      href={`/services/${r.slug}`}
+                      className="group rounded-2xl bg-white p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+                    >
+                      <h3 className="mb-3 font-[family-name:var(--font-serif)] text-[20px] text-burgundy group-hover:text-red-highlight">
+                        {r.title}
+                      </h3>
+                      <p className="text-[14px] leading-relaxed text-dark-gray line-clamp-3">
+                        {r.metaDescription}
+                      </p>
+                      <span className="mt-4 inline-block text-[14px] font-semibold text-burgundy group-hover:text-red-highlight">
+                        Learn More &rarr;
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* CTA */}
         <section className="bg-burgundy py-16 md:py-24">

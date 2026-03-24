@@ -35,7 +35,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.yelp.com/biz/alexas-cleaning-services-placerville"
+                href="https://www.yelp.com/biz/alexa-s-house-cleaning-placerville"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Yelp"
