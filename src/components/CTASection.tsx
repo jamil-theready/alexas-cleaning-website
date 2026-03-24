@@ -23,16 +23,7 @@ export default function CTASection() {
             Email Us
           </a>
         </div>
-        <div className="mt-6 flex items-center justify-center gap-2">
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500"></span>
-          </span>
-          <p className="text-[14px] font-medium text-white/80">
-            34 cleans booked in the last 24 hours
-          </p>
-        </div>
-        <p className="mt-3 text-[14px] text-white/60">
+        <p className="mt-6 text-[14px] text-white/60">
           Serving Placerville, Cameron Park, El Dorado Hills, Diamond Springs &amp; all of El Dorado County
         </p>
       </div>

@@ -77,6 +77,8 @@ export default function Header() {
             className="text-[15px] font-medium text-dark-gray transition-colors hover:text-burgundy"
             onClick={() => setServicesOpen(!servicesOpen)}
             onMouseEnter={() => setServicesOpen(true)}
+            aria-expanded={servicesOpen}
+            aria-haspopup="true"
           >
             Services
             <svg className={`ml-1 inline h-3 w-3 transition-transform ${servicesOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">

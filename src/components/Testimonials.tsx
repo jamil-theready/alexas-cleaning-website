@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useRef, useEffect, useCallback } from "react";
+
 const testimonials = [
   {
     name: "Sarah T.",
@@ -64,6 +68,40 @@ function StarIcon() {
 }
 
 export default function Testimonials() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScroll = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 10);
+    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 10);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    checkScroll();
+    el.addEventListener("scroll", checkScroll, { passive: true });
+    window.addEventListener("resize", checkScroll);
+    return () => {
+      el.removeEventListener("scroll", checkScroll);
+      window.removeEventListener("resize", checkScroll);
+    };
+  }, [checkScroll]);
+
+  function scroll(direction: "left" | "right") {
+    const el = scrollRef.current;
+    if (!el) return;
+    const cardWidth = el.querySelector<HTMLElement>(":scope > div")?.offsetWidth ?? 380;
+    const gap = 24;
+    el.scrollBy({
+      left: direction === "left" ? -(cardWidth + gap) : cardWidth + gap,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <section id="testimonials" className="bg-yellow-light py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -76,34 +114,72 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {testimonials.map((t) => (
-            <div
-              key={t.name}
-              className="rounded-2xl bg-white p-8 transition-shadow hover:shadow-md"
-              style={{ boxShadow: "0 2px 4px rgba(0,0,0,0.25)" }}
-            >
-              <div className="mb-4 flex gap-1">
-                {[...Array(t.stars)].map((_, i) => (
-                  <StarIcon key={i} />
-                ))}
-              </div>
-              <p className="mb-6 text-[16px] leading-relaxed text-dark-gray italic">
-                &ldquo;{t.text}&rdquo;
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-burgundy text-[14px] font-semibold text-white">
-                  {t.name.charAt(0)}
+        {/* Carousel */}
+        <div className="relative">
+          {/* Scroll container */}
+          <div
+            ref={scrollRef}
+            className="flex snap-x snap-mandatory gap-6 overflow-x-auto pb-4"
+            style={{ scrollbarWidth: "none" }}
+          >
+            {testimonials.map((t) => (
+              <div
+                key={t.name}
+                className="w-[320px] flex-shrink-0 snap-start rounded-2xl bg-white p-8 transition-shadow hover:shadow-md md:w-[calc((100%-48px)/3)]"
+                style={{ boxShadow: "0 2px 4px rgba(0,0,0,0.25)" }}
+              >
+                <div className="mb-4 flex gap-1">
+                  {[...Array(t.stars)].map((_, i) => (
+                    <StarIcon key={i} />
+                  ))}
                 </div>
-                <div>
-                  <p className="text-[16px] font-semibold text-burgundy">
-                    {t.name}
-                  </p>
-                  <p className="text-[13px] text-gray">{t.location}</p>
+                <p className="mb-6 text-[16px] leading-relaxed text-dark-gray italic">
+                  &ldquo;{t.text}&rdquo;
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-burgundy text-[14px] font-semibold text-white">
+                    {t.name.charAt(0)}
+                  </div>
+                  <div>
+                    <p className="text-[16px] font-semibold text-burgundy">
+                      {t.name}
+                    </p>
+                    <p className="text-[13px] text-gray">{t.location}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          {/* Left arrow */}
+          <button
+            onClick={() => scroll("left")}
+            className={`absolute -left-3 top-1/2 z-10 hidden -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-lg transition-opacity md:flex h-10 w-10 ${
+              canScrollLeft ? "opacity-100 cursor-pointer" : "opacity-0 pointer-events-none"
+            }`}
+            aria-label="Previous reviews"
+          >
+            <svg className="h-5 w-5 text-burgundy" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Right arrow */}
+          <button
+            onClick={() => scroll("right")}
+            className={`absolute -right-3 top-1/2 z-10 hidden -translate-y-1/2 items-center justify-center rounded-full bg-white shadow-lg transition-opacity md:flex h-10 w-10 ${
+              canScrollRight ? "opacity-100 cursor-pointer" : "opacity-0 pointer-events-none"
+            }`}
+            aria-label="Next reviews"
+          >
+            <svg className="h-5 w-5 text-burgundy" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          {/* Fade edges */}
+          <div className={`pointer-events-none absolute left-0 top-0 h-full w-12 bg-gradient-to-r from-yellow-light to-transparent transition-opacity ${canScrollLeft ? "opacity-100" : "opacity-0"}`} />
+          <div className={`pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-yellow-light to-transparent transition-opacity ${canScrollRight ? "opacity-100" : "opacity-0"}`} />
         </div>
 
         <div className="mt-10 text-center">

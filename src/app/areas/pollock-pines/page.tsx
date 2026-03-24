@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning in Pollock Pines CA. Licensed, insured, 15+ years experience. Serving the mountain community near Jenkinson Lake. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/pollock-pines",
+    canonical: "https://www.alexascleaningplacerville.com/areas/pollock-pines",
   },
 };
 

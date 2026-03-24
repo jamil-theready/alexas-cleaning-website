@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning in Shingle Springs CA. Licensed, insured, 15+ years experience. Serving Gold Country families. No contracts. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/shingle-springs",
+    canonical: "https://www.alexascleaningplacerville.com/areas/shingle-springs",
   },
 };
 

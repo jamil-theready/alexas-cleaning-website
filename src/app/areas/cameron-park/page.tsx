@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning in Cameron Park CA. Licensed, insured, 15+ years experience. Serving Cameron Park Lake area and Highway 50 corridor. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/cameron-park",
+    canonical: "https://www.alexascleaningplacerville.com/areas/cameron-park",
   },
 };
 

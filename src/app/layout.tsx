@@ -30,7 +30,7 @@ const jsonLd = {
   "@type": "CleaningService",
   "name": "Alexa's Cleaning Services",
   "url": "https://www.alexascleaningplacerville.com",
-  "telephone": "+15302146361",
+  "telephone": ["+15302146361", "+15303828642"],
   "email": "alexascleaningplacerville@gmail.com",
   "image": "https://www.alexascleaningplacerville.com/images/og-image.jpg",
   "logo": "https://www.alexascleaningplacerville.com/images/logo.png",
@@ -51,6 +51,12 @@ const jsonLd = {
     "https://www.yelp.com/biz/alexas-cleaning-services-placerville",
     "https://www.google.com/maps/place/Alexa's+Cleaning+Services"
   ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "9",
+    "bestRating": "5",
+  },
   "knowsAbout": ["house cleaning", "deep cleaning", "commercial cleaning", "post construction cleaning", "Airbnb cleaning", "apartment cleaning", "Placerville cleaning services"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -93,7 +99,7 @@ export default function RootLayout({
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"e716baa6b1484524a0dd6332688afc52"})});`,
+            __html: `(function(){var s=document.createElement("script");s.async=true;s.src="https://tracker.metricool.com/resources/be.js";s.onload=function(){beTracker.t({hash:"e716baa6b1484524a0dd6332688afc52"})};document.head.appendChild(s)})();`,
           }}
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

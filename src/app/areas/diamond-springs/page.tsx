@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning in Diamond Springs CA. Licensed, insured, 15+ years experience. Serving this historic Gold Rush community. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/diamond-springs",
+    canonical: "https://www.alexascleaningplacerville.com/areas/diamond-springs",
   },
 };
 

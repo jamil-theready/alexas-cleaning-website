@@ -25,9 +25,28 @@ export async function generateMetadata({
   if (!post) {
     return { title: "Post Not Found" };
   }
+  const blogImage = `/images/blog/${blogPosts.findIndex((p) => p.slug === slug) + 1}.jpg`;
   return {
     title: post.metaTitle,
     description: post.metaDescription,
+    alternates: {
+      canonical: `https://www.alexascleaningplacerville.com/blog/${slug}`,
+    },
+    openGraph: {
+      title: post.metaTitle,
+      description: post.metaDescription,
+      type: "article",
+      publishedTime: post.date,
+      url: `https://www.alexascleaningplacerville.com/blog/${slug}`,
+      images: [
+        {
+          url: `https://www.alexascleaningplacerville.com${blogImage}`,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
   };
 }
 
@@ -60,7 +79,7 @@ export default async function BlogPostPage({
     "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
-    datePublished: "2025-01-01",
+    datePublished: post.date,
     author: {
       "@type": "Organization",
       name: "Alexa's Cleaning Services",

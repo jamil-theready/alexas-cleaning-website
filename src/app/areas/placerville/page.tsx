@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning and commercial cleaning in Placerville CA. Licensed, insured, 15+ years serving Placerville families. No contracts. Free quotes. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/placerville",
+    canonical: "https://www.alexascleaningplacerville.com/areas/placerville",
   },
 };
 

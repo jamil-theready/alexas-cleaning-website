@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Professional house cleaning in El Dorado Hills CA. Licensed, insured, 15+ years experience. Serving Serrano, Town Center, and Silva Valley. Call (530) 214-6361.",
   alternates: {
-    canonical: "/areas/el-dorado-hills",
+    canonical: "https://www.alexascleaningplacerville.com/areas/el-dorado-hills",
   },
 };
 

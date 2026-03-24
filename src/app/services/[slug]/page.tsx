@@ -22,6 +22,23 @@ export function generateMetadata({
     return {
       title: service.metaTitle,
       description: service.metaDescription,
+      alternates: {
+        canonical: `https://www.alexascleaningplacerville.com/services/${slug}`,
+      },
+      openGraph: {
+        title: service.metaTitle,
+        description: service.metaDescription,
+        type: "website",
+        url: `https://www.alexascleaningplacerville.com/services/${slug}`,
+        images: [
+          {
+            url: "https://www.alexascleaningplacerville.com/images/og-image.jpg",
+            width: 1200,
+            height: 630,
+            alt: `${service.title} in Placerville CA - Alexa's Cleaning Services`,
+          },
+        ],
+      },
     };
   });
 }

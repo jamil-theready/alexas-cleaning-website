@@ -94,6 +94,12 @@ export default function Footer() {
                 (530) 214-6361
               </a>
               <a
+                href="tel:+15303828642"
+                className="transition-colors hover:text-yellow"
+              >
+                (530) 382-8642
+              </a>
+              <a
                 href="mailto:alexascleaningplacerville@gmail.com"
                 className="break-all transition-colors hover:text-yellow"
               >

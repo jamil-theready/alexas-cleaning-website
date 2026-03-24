@@ -7,7 +7,7 @@ export default function AboutOwner() {
           <div className="flex justify-center">
             <div className="relative">
               <img
-                src="/images/cleaning-lady.png"
+                src="/images/cleaning-lady.jpg"
                 alt="Alejandra, Owner of Alexa's Cleaning Services in Placerville"
                 className="h-[320px] w-[320px] rounded-full border-4 border-[#c4365a] object-cover md:h-[400px] md:w-[400px]"
               />
@@ -32,17 +32,6 @@ export default function AboutOwner() {
               they meet her standards. For Alejandra, every home she cleans is
               a reflection of her name and her word.
             </p>
-
-            {/* Urgency Counter */}
-            <div className="mb-8 flex items-center gap-3">
-              <span className="relative flex h-3 w-3">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-              </span>
-              <p className="text-[15px] font-medium text-white/90">
-                34 cleans booked in the last 24 hours
-              </p>
-            </div>
 
             {/* Stats Row */}
             <div className="flex flex-wrap gap-8">
