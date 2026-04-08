@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     "Top-rated cleaning services in Placerville and El Dorado County. House cleaning, deep cleaning, commercial. Licensed, insured. No contracts.",
   keywords:
     "cleaning services Placerville, house cleaning El Dorado County, deep cleaning Placerville CA, commercial cleaning Placerville, Airbnb cleaning Placerville",
+  metadataBase: new URL("https://www.alexascleaningplacerville.com"),
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Alexa's Cleaning Services | Placerville, CA",
     description:
