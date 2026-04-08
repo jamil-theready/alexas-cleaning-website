@@ -367,6 +367,26 @@ export default function DiamondSpringsPage() {
                   ratingValue: "5.0",
                   reviewCount: "9",
                 },
+                review: [
+                  {
+                    "@type": "Review",
+                    author: { "@type": "Person", name: "Sarah T." },
+                    reviewRating: { "@type": "Rating", ratingValue: "5" },
+                    reviewBody: "Alexa and her team have been a lifesaver for our office in Placerville. They are professional, thorough, and always on time.",
+                  },
+                  {
+                    "@type": "Review",
+                    author: { "@type": "Person", name: "James L." },
+                    reviewRating: { "@type": "Rating", ratingValue: "5" },
+                    reviewBody: "I have tried several cleaning companies in Placerville, but Alexa and her team stand out. They pay attention to every detail and leave my home spotless every time.",
+                  },
+                  {
+                    "@type": "Review",
+                    author: { "@type": "Person", name: "Deborah A." },
+                    reviewRating: { "@type": "Rating", ratingValue: "5" },
+                    reviewBody: "Your team is always helpful with speedy turnover and friendly too. Have used them for 15 years. Could not be happier with the consistent quality.",
+                  },
+                ],
               },
               {
                 "@context": "https://schema.org",

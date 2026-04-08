@@ -58,6 +58,13 @@ const jsonLd = {
     "reviewCount": "9",
     "bestRating": "5",
   },
+  "review": [
+    { "@type": "Review", "author": { "@type": "Person", "name": "Sarah T." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Alexa and her team have been a lifesaver for our office in Placerville. They are professional, thorough, and always on time." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "James L." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "I have tried several cleaning companies in Placerville, but Alexa and her team stand out. They pay attention to every detail and leave my home spotless every time." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Emily R." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Alexa and her team transformed my home. Their residential cleaning service is top-notch. They are friendly, professional, and truly care about their work." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Deborah A." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "Your team is always helpful with speedy turnover and friendly too. Have used them for 15 years. Could not be happier with the consistent quality." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Michael T." }, "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "reviewBody": "I have been using them for almost 4 years. They are quick, friendly, and reliable. My home always looks and smells amazing after every visit." },
+  ],
   "knowsAbout": ["house cleaning", "deep cleaning", "commercial cleaning", "post construction cleaning", "Airbnb cleaning", "apartment cleaning", "Placerville cleaning services"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
