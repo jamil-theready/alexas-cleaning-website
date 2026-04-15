@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
-import { blogPosts } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Cleaning Tips & Guides | Alexa's Cleaning Services Blog",
@@ -19,6 +19,7 @@ function getBlogImage(index: number): string {
 }
 
 export default function BlogIndex() {
+  const blogPosts = getAllBlogPosts();
   return (
     <>
       <Header />

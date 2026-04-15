@@ -5,12 +5,12 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
-import { blogPosts } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/content";
 import { markdownToHtml, slugify } from "@/lib/markdown";
 import FAQAccordion from "./FAQAccordion";
 
 export function generateStaticParams() {
-  return blogPosts.map((post) => ({
+  return getAllBlogPosts().map((post) => ({
     slug: post.slug,
   }));
 }
@@ -21,11 +21,12 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const posts = getAllBlogPosts();
+  const post = posts.find((p) => p.slug === slug);
   if (!post) {
     return { title: "Post Not Found" };
   }
-  const blogImage = `/images/blog/${blogPosts.findIndex((p) => p.slug === slug) + 1}.jpg`;
+  const blogImage = `/images/blog/${posts.findIndex((p) => p.slug === slug) + 1}.jpg`;
   return {
     title: post.metaTitle,
     description: post.metaDescription,
@@ -56,6 +57,7 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const blogPosts = getAllBlogPosts();
   const postIndex = blogPosts.findIndex((p) => p.slug === slug);
   const post = blogPosts[postIndex];
 

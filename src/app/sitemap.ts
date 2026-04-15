@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { services } from "@/data/services";
-import { blogPosts } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/content";
 
 export const dynamic = "force-static";
 
@@ -75,7 +75,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: post.date,
     changeFrequency: "monthly" as const,

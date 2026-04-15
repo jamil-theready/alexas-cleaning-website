@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Confetti from "@/components/Confetti";
 import Link from "next/link";
-import { blogPosts } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Thank You | Alexa's Cleaning Services",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function ThankYouPage() {
-  const recentPosts = blogPosts.slice(0, 6);
+  const recentPosts = getAllBlogPosts().slice(0, 6);
 
   return (
     <>
