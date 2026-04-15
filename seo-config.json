@@ -1,0 +1,31 @@
+{
+  "client": "Alexa's Cleaning Services",
+  "business": {
+    "name": "Alexa's Cleaning Services",
+    "telephone": "+15302146361",
+    "siteUrl": "https://www.alexascleaningplacerville.com",
+    "image": "https://www.alexascleaningplacerville.com/images/alexas-cleaning-services.jpg",
+    "serviceType": "House Cleaning Service",
+    "schemaTypes": ["HouseCleaningService", "LocalBusiness"],
+    "defaultDescription": "Top-rated cleaning services in Placerville and El Dorado County. House cleaning, deep cleaning, commercial. Licensed, insured. No contracts.",
+    "address": {
+      "locality": "Placerville",
+      "region": "CA",
+      "country": "US"
+    },
+    "containedInPlace": "El Dorado County, California"
+  },
+  "paths": {
+    "schemaLib": "src/lib/schema.ts",
+    "serviceAreaTemplate": "src/app/areas/[slug]/page.tsx"
+  },
+  "pagesToAudit": [
+    "src/app/page.tsx",
+    "src/app/layout.tsx",
+    "src/app/areas/[slug]/page.tsx",
+    "src/app/blog/[slug]/page.tsx",
+    "src/app/services/[slug]/page.tsx",
+    "src/app/about/page.tsx",
+    "src/app/contact/page.tsx"
+  ]
+}
