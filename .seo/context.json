@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-20",
+  "windowDays": 28,
+  "seedReason": "Bootstrap from Gina template \u2014 Alexa's Cleaning Services initial strategic priorities",
+  "strategicPriorities": [
+    {
+      "cluster": "airbnbCleaning",
+      "keywords": [
+        "airbnb turnover cleaning placerville",
+        "vacation rental cleaning sacramento"
+      ],
+      "reason": "Highest commercial intent \u2014 Airbnb hosts need recurring service"
+    },
+    {
+      "cluster": "deepCleaning",
+      "keywords": [
+        "deep cleaning placerville ca",
+        "move in cleaning sacramento"
+      ],
+      "reason": "High-ticket service category"
+    },
+    {
+      "cluster": "recurringService",
+      "keywords": [
+        "weekly house cleaning placerville",
+        "biweekly cleaning service sacramento"
+      ],
+      "reason": "Subscription revenue base"
+    },
+    {
+      "cluster": "bilingualServices",
+      "keywords": [
+        "spanish speaking cleaner sacramento",
+        "servicio de limpieza placerville"
+      ],
+      "reason": "Differentiator in El Dorado County"
+    }
+  ],
+  "opportunityQueries": [],
+  "decliningPosts": [],
+  "clusterCoverage": {},
+  "topPerformers": [],
+  "deadPages": [],
+  "totals": {
+    "posts": 0
+  },
+  "manualOverrides": {
+    "doNotWrite": [],
+    "forceWrite": []
+  },
+  "history": [
+    {
+      "date": "2026-05-20",
+      "event": "Initial bootstrap for Alexa's Cleaning Services GitHub Actions blog"
+    }
+  ]
+}

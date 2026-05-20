@@ -1,0 +1,37 @@
+{
+  "_comment": "Internal link library for Alexa's Cleaning Services. Expand as new pages publish.",
+  "updatedAt": "2026-05-20",
+  "entries": [
+    {
+      "title": "Cleaning Services",
+      "url": "https://www.alexascleaningplacerville.com/services",
+      "cluster": "general"
+    },
+    {
+      "title": "Get a Quote",
+      "url": "https://www.alexascleaningplacerville.com/contact",
+      "cluster": "general"
+    },
+    {
+      "title": "About Alexa's Cleaning",
+      "url": "https://www.alexascleaningplacerville.com/about",
+      "cluster": "general"
+    }
+  ],
+  "byCluster": {
+    "general": [
+      {
+        "title": "Cleaning Services",
+        "url": "https://www.alexascleaningplacerville.com/services"
+      },
+      {
+        "title": "Get a Quote",
+        "url": "https://www.alexascleaningplacerville.com/contact"
+      },
+      {
+        "title": "About Alexa's Cleaning",
+        "url": "https://www.alexascleaningplacerville.com/about"
+      }
+    ]
+  }
+}
