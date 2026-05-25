@@ -1,0 +1,25 @@
+[
+  {
+    "week": "2026-05-25",
+    "runDate": "2026-05-25T16:19:25.124Z",
+    "fixesCount": 0,
+    "schemaBefore": {
+      "src/app/page.tsx": 0,
+      "src/app/layout.tsx": 1,
+      "src/app/areas/[slug]/page.tsx": 0,
+      "src/app/blog/[slug]/page.tsx": 3,
+      "src/app/services/[slug]/page.tsx": 3,
+      "src/app/about/page.tsx": 0,
+      "src/app/contact/page.tsx": 0
+    },
+    "schemaAfter": {
+      "src/app/page.tsx": 0,
+      "src/app/layout.tsx": 1,
+      "src/app/areas/[slug]/page.tsx": 0,
+      "src/app/blog/[slug]/page.tsx": 3,
+      "src/app/services/[slug]/page.tsx": 3,
+      "src/app/about/page.tsx": 0,
+      "src/app/contact/page.tsx": 0
+    }
+  }
+]
