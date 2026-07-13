@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
@@ -41,11 +42,21 @@ export default function AboutPage() {
               clean or a weekly visit. That hands-on approach is what keeps
               families coming back year after year.
             </p>
-            <p className="text-[17px] leading-relaxed text-dark-gray">
+            <p className="mb-6 text-[17px] leading-relaxed text-dark-gray">
               No contracts. No rescheduling fees. No hidden charges. Just
               honest, reliable cleaning from a team that treats your home like
               their own. That is the standard Alejandra set 15 years ago, and
               it has not changed.
+            </p>
+            <p className="text-[17px] leading-relaxed text-dark-gray">
+              Alejandra also writes every guide on our blog.{" "}
+              <Link
+                href="/author/alejandra-ortiz"
+                className="font-semibold text-burgundy underline hover:text-red-highlight"
+              >
+                Read her cleaning guides here
+              </Link>
+              .
             </p>
           </div>
         </section>

@@ -91,16 +91,44 @@ export default async function BlogPostPage({
     headline: post.title,
     description: post.metaDescription,
     datePublished: post.date,
+    dateModified: post.updated || post.date,
+    mainEntityOfPage: `https://www.alexascleaningplacerville.com/blog/${slug}`,
     author: {
-      "@type": "Organization",
-      name: "Alexa's Cleaning Services",
+      "@type": "Person",
+      "@id": "https://www.alexascleaningplacerville.com/author/alejandra-ortiz#person",
+      name: "Alejandra Ortiz",
+      jobTitle: "Founder & Owner, Alexa's Cleaning Services",
+      url: "https://www.alexascleaningplacerville.com/author/alejandra-ortiz",
     },
     publisher: {
       "@type": "Organization",
+      "@id": "https://www.alexascleaningplacerville.com/#business",
       name: "Alexa's Cleaning Services",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.alexascleaningplacerville.com/images/logo.png",
+      },
     },
     image: `https://www.alexascleaningplacerville.com${post.image}`,
   };
+
+  // Related posts by shared tags (fallback: most recent)
+  const related = blogPosts
+    .filter((p) => p.slug !== slug)
+    .map((p) => ({
+      post: p,
+      score: p.tags.filter((t) => post.tags.includes(t)).length,
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((r) => r.post);
+
+  const formatDate = (d: string) =>
+    new Date(`${d}T12:00:00`).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
 
   // FAQ structured data
   const faqJsonLd =
@@ -186,9 +214,24 @@ export default async function BlogPostPage({
               </Link>
 
               {/* Title Above Image */}
-              <h1 className="mb-6 max-w-[600px] font-[family-name:var(--font-serif)] text-[28px] leading-tight text-burgundy md:text-[38px]">
+              <h1 className="mb-4 max-w-[600px] font-[family-name:var(--font-serif)] text-[28px] leading-tight text-burgundy md:text-[38px]">
                 {post.title}
               </h1>
+
+              {/* Byline (E-E-A-T) */}
+              <p className="mb-6 text-[14px] text-dark-gray/70">
+                By{" "}
+                <Link
+                  href="/author/alejandra-ortiz"
+                  className="font-semibold text-burgundy hover:underline"
+                >
+                  Alejandra Ortiz
+                </Link>
+                , Founder &amp; Owner &middot; Published {formatDate(post.date)}
+                {post.updated && post.updated !== post.date && (
+                  <> &middot; Updated {formatDate(post.updated)}</>
+                )}
+              </p>
 
               {/* Hero Image */}
               <div className="relative mb-8 aspect-[16/9] w-full overflow-hidden rounded-2xl">
@@ -283,6 +326,31 @@ export default async function BlogPostPage({
               </a>
             </div>
           </section>
+
+              {/* Related Posts */}
+              {related.length > 0 && (
+                <section className="mt-16">
+                  <h2 className="mb-6 font-[family-name:var(--font-serif)] text-[24px] text-burgundy md:text-[28px]">
+                    Related Guides
+                  </h2>
+                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                    {related.map((r) => (
+                      <Link
+                        key={r.slug}
+                        href={`/blog/${r.slug}`}
+                        className="group rounded-2xl bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+                      >
+                        <h3 className="mb-2 font-[family-name:var(--font-serif)] text-[16px] leading-snug text-burgundy group-hover:text-red-highlight">
+                          {r.title}
+                        </h3>
+                        <span className="text-[13px] font-semibold text-burgundy/70 group-hover:text-red-highlight">
+                          Read &rarr;
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              )}
 
               {/* Navigation */}
               <div className="mt-12 flex items-center justify-between">

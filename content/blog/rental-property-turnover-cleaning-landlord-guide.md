@@ -4,6 +4,7 @@ title: "Rental Property Turnover Cleaning: A Landlord's Guide"
 metaTitle: "Rental Property Turnover Cleaning Guide | Alexa's Cleaning"
 metaDescription: "A landlord's guide to rental turnover cleaning in El Dorado County. How to get units rent-ready fast without cutting corners or overpaying."
 date: "2025-12-28"
+updated: "2026-07-13"
 image: "/images/blog/rental-turnover.jpg"
 imageAlt: "Clean rental property ready for new tenants in Placerville"
 excerpt: "A landlord's guide to rental property turnover cleaning. How to prepare your unit between tenants quickly and professionally."
@@ -37,9 +38,11 @@ faqs:
 
 ## Rental Property Turnover Cleaning: A Landlord's Guide
 
-A property manager in Shingle Springs called me on a Friday afternoon. A tenant had moved out that morning. The new tenant was moving in Monday. He needed the 3-bedroom unit cleaned over the weekend.
+**Rental turnover cleaning is a full deep clean between tenants that covers every room, appliance, and bathroom so your unit is rent ready within 24 to 48 hours.**
 
-When we walked in, the place was rough. Grease caked in the kitchen, pink mold in the shower, mystery stains on the carpet. The previous tenant clearly did not do a move-out clean.
+A property manager in [Shingle Springs](/areas/shingle-springs) called me on a Friday afternoon. A tenant had moved out that morning. The new tenant was moving in Monday. He needed the 3-bedroom unit cleaned over the weekend.
+
+When we walked in, the place was rough. Grease caked in the kitchen, pink mold in the shower, mystery stains on the carpet. The previous tenant clearly did not do a [move-out clean](/services/moving-cleaning).
 
 We had it rent-ready by Sunday morning. The new tenant moved in Monday with zero complaints. That is how turnover cleaning should work when you have the right team on call.
 
@@ -47,7 +50,7 @@ We had it rent-ready by Sunday morning. The new tenant moved in Monday with zero
 
 ## Why Turnover Cleaning Matters
 
-Every day a unit sits empty is money lost. In El Dorado County, the average rent for a 2-bedroom is around $1,800 per month. That is $60 per day of vacancy.
+Every day a unit sits empty is money lost. In El Dorado County as of 2026, the average rent for a 2-bedroom is around $1,800 per month. That is $60 per day of vacancy.
 
 A professional turnover clean that gets your unit rent-ready in 24 to 48 hours pays for itself immediately compared to a week of vacancy while you scramble to clean it yourself or wait for an available service.
 
@@ -101,11 +104,11 @@ New tenants form their impression of the property in the first 5 minutes. These 
 
 ## Setting Up a Turnover System
 
-If you manage multiple properties, ad hoc cleaning is not sustainable. Here is how to build a reliable turnover process.
+If you manage multiple properties, ad hoc cleaning is not sustainable. Here is how to build a reliable turnover process. I call it **The 3-Part Turnover System**: a cleaner on call, a standard checklist, and documentation.
 
 ### Have a Cleaning Service on Retainer
 
-You do not need a contract. You need a relationship with a cleaning company that can respond quickly when a tenant moves out. At Alexa's Cleaning, several of our property management clients have us on a preferred vendor list. When a unit opens up, they call and we schedule within 48 hours.
+You do not need a contract. You need a relationship with a cleaning company that can respond quickly when a tenant moves out. As of 2026, several of our property management clients keep Alexa's Cleaning on their preferred vendor list. When a unit opens up, they call and we schedule within 48 hours.
 
 ### Create a Standard Inspection Checklist
 
@@ -119,6 +122,8 @@ Before and after photos protect both you and your tenants. We can provide docume
 
 ## Pricing for Landlords and Property Managers
 
+Here is what turnover cleaning runs as of July 2026:
+
 | Unit Size | Turnover Clean |
 |---|---|
 | Studio / 1 bed | $150 to $220 |
@@ -126,7 +131,7 @@ Before and after photos protect both you and your tenants. We can provide docume
 | 3 bed / 2 bath | $280 to $400 |
 | 4+ bed | $350 to $500+ |
 
-Condition matters. A unit from a clean tenant who did a move-out scrub costs less than a unit left in rough shape. We provide honest quotes after a quick walkthrough or photo assessment.
+Condition matters. A unit from a clean tenant who did a move-out scrub costs less than a unit left in rough shape. We provide honest quotes after a quick walkthrough or photo assessment. You can [request a walkthrough here](/contact).
 
 ---
 

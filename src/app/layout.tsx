@@ -31,6 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CleaningService",
+  "@id": "https://www.alexascleaningplacerville.com/#business",
   "name": "Alexa's Cleaning Services",
   "url": "https://www.alexascleaningplacerville.com",
   "telephone": ["+15302146361", "+15303828642"],
@@ -47,14 +48,28 @@ const jsonLd = {
     "addressCountry": "US",
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 38.7296, "longitude": -120.7986 },
-  "areaServed": { "@type": "Place", "name": "Placerville, CA and surrounding El Dorado County areas" },
+  "areaServed": [
+    { "@type": "City", "name": "Placerville" },
+    { "@type": "City", "name": "Cameron Park" },
+    { "@type": "City", "name": "Shingle Springs" },
+    { "@type": "City", "name": "Diamond Springs" },
+    { "@type": "City", "name": "El Dorado Hills" },
+    { "@type": "City", "name": "Pollock Pines" },
+    { "@type": "AdministrativeArea", "name": "El Dorado County, California" }
+  ],
   "priceRange": "$",
   "sameAs": [
     "https://www.instagram.com/servicecleaners4you/",
     "https://www.yelp.com/biz/alexas-cleaning-services-placerville",
-    "https://www.google.com/maps/place/Alexa's+Cleaning+Services",
     "https://nextdoor.com/pages/alexas-cleaning-services/"
   ],
+  "founder": {
+    "@type": "Person",
+    "@id": "https://www.alexascleaningplacerville.com/author/alejandra-ortiz#person",
+    "name": "Alejandra Ortiz",
+    "jobTitle": "Founder & Owner",
+    "url": "https://www.alexascleaningplacerville.com/author/alejandra-ortiz"
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",

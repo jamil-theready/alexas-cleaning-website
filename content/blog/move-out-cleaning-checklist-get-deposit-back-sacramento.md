@@ -4,6 +4,7 @@ title: "Move Out Cleaning Checklist: How to Get Your Full Deposit Back in Sacram
 metaTitle: "Move-Out Cleaning Checklist Sacramento | Deposit"
 metaDescription: "Moving out in Sacramento? Use this room-by-room move out cleaning checklist to get your full deposit back or hire moving cleaning services near me to handle it."
 date: "2025-12-05"
+updated: "2026-07-13"
 image: "/images/blog/deposit-cleaning.jpg"
 imageAlt: "Thorough move-out cleaning to get deposit back in Sacramento"
 excerpt: "The Sacramento-specific move-out cleaning checklist. Room-by-room tasks that landlords in this area actually check during inspection."
@@ -37,7 +38,9 @@ faqs:
 
 ## Why Your Deposit Depends on How You Leave the Place
 
-If you are moving out of a rental in Sacramento, your security deposit is on the line. Landlords and property managers inspect every corner after you leave. Scuff marks on walls. Grease on the stovetop. Soap buildup in the shower. These are the things that get deducted from your deposit before you even unpack at your new place. That is why **[moving cleaning services near me](/service/moving-cleaning-services-in-placerville-ca)** are one of the smartest investments you can make during a move. But whether you hire a pro or tackle it yourself, you need a plan. This room-by-room checklist covers exactly what landlords look for so you can walk away with your full deposit.
+**Getting your full deposit back means cleaning the exact spots Sacramento landlords inspect: appliance interiors, bathroom grout, window tracks, baseboards, and closet shelves.**
+
+If you are moving out of a rental in Sacramento, your security deposit is on the line. Landlords and property managers inspect every corner after you leave. Scuff marks on walls. Grease on the stovetop. Soap buildup in the shower. These are the things that get deducted from your deposit before you even unpack at your new place. That is why **[moving cleaning services near me](/service/moving-cleaning-services-in-placerville-ca)** are one of the smartest investments you can make during a move. But whether you hire a pro or tackle it yourself, you need a plan. This room-by-room checklist covers exactly [what landlords look for](/blog/move-out-cleaning-sacramento-landlord-inspects) so you can walk away with your full deposit.
 
 ---
 
@@ -102,7 +105,7 @@ Nail holes are a gray area. Small pin holes from hanging pictures are typically 
 
 ## Overlooked Areas That Cost You Money
 
-Every landlord has a mental checklist of spots most tenants forget. These are the areas that turn a partial deposit return into a full one.
+Every landlord has a mental checklist of spots most tenants forget. I call them **The Overlooked Seven**. These are the areas that turn a partial deposit return into a full one.
 
 **Inside the garage.** Sweep the floor, remove oil stains if possible, and wipe down any shelving.
 
@@ -122,22 +125,22 @@ Every landlord has a mental checklist of spots most tenants forget. These are th
 
 ## DIY vs. Hiring a Professional Move Out Cleaning Service
 
-You can absolutely clean the place yourself. But here is the reality. After packing, loading, and hauling boxes for days, most people are exhausted. Corners get cut. Spots get missed. And a missed spot can cost you $50 to $200 in deductions.
+You can absolutely clean the place yourself. But here is the reality. After packing, loading, and hauling boxes for days, most people are exhausted. Corners get cut. Spots get missed. And in 2026, a missed spot can cost you $50 to $200 in deductions.
 
-Professional **move out cleaning services in Sacramento** know exactly what landlords inspect. They bring the right products, the right tools, and the energy you do not have on moving day. Most move-out cleans take two to four hours depending on the size of the unit.
+Professional **[move out cleaning services in Sacramento](/services/moving-cleaning)** know exactly what landlords inspect. They bring the right products, the right tools, and the energy you do not have on moving day. As of 2026, most move-out cleans take two to four hours depending on the size of the unit.
 
 ### When It Makes Sense to Hire Out
 
 - **Your deposit is $1,500 or more.** The cost of a professional clean is a fraction of what you stand to lose.
 - **You have back-to-back move dates.** No time to clean and move in the same day.
-- **The place has not been deep cleaned in a while.** Built-up grime takes longer than you think.
+- **The place has not been [deep cleaned](/services/deep-cleaning) in a while.** Built-up grime takes longer than you think.
 - **Your landlord is strict.** Some property managers use professional inspection checklists. Match their standard.
 
 ---
 
 ## California Tenant Rights and Your Deposit
 
-Under California Civil Code Section 1950.5, landlords must return your security deposit within 21 days of move-out. They can deduct for cleaning only if the unit is not left in the same condition as when you moved in, minus normal wear and tear.
+Under California Civil Code Section 1950.5, landlords must return your security deposit within 21 days of move-out. That rule has not changed as of 2026. They can deduct for cleaning only if the unit is not left in the same condition as when you moved in, minus normal wear and tear.
 
 That phrase matters. Normal wear and tear includes minor scuffs, small nail holes, and light carpet wear from everyday use. It does not include grease-caked ovens, moldy showers, or stained carpets.
 

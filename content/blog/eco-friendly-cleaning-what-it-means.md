@@ -4,6 +4,7 @@ title: "Eco Friendly Cleaning: What It Really Means"
 metaTitle: "Eco-Friendly Cleaning | What It Really Means"
 metaDescription: "What does eco friendly cleaning actually mean? Learn about green products, methods, and what to look for. Serving Placerville and El Dorado County."
 date: "2025-11-05"
+updated: "2026-07-13"
 image: "/images/blog/eco-cleaning.jpg"
 imageAlt: "Eco-friendly cleaning products used by professionals"
 excerpt: "What eco-friendly cleaning actually means. The products, practices, and certifications that separate real green cleaning from marketing hype."
@@ -35,7 +36,9 @@ faqs:
 
 ## Eco Friendly Cleaning: What It Really Means
 
-Every cleaning company claims to be "green" or "eco friendly" these days. It is a great marketing phrase. But what does it actually mean? And how do you know if a cleaning service is truly using safer products or just slapping a leaf logo on the same old chemicals?
+Every cleaning company claims to be "green" or "eco friendly" in 2026. It is a great marketing phrase. But what does it actually mean? And how do you know if a cleaning service is truly using safer products or just slapping a leaf logo on the same old chemicals?
+
+**Eco friendly cleaning means using third party certified products like EPA Safer Choice, methods that cut chemical and packaging waste, and supplies that are safe for kids, pets, and the environment.**
 
 At Alexa's Cleaning Services in Placerville, we take this seriously. Not because it is trendy, but because the products we use end up on surfaces where your family eats, sleeps, and plays. Here is what eco friendly cleaning really means, what to look for, and what to watch out for.
 
@@ -73,7 +76,7 @@ Look for these indicators on product labels:
 - **Plant-based surfactants** instead of petroleum-derived ones
 - **No chlorine, ammonia, or phosphates**
 
-At Alexa's Cleaning Services, we use EPA Safer Choice certified products across all our residential and commercial cleaning. This is not a sometimes thing. It is our standard.
+At Alexa's Cleaning Services, as of 2026 we use EPA Safer Choice certified products across all our [residential](/services/house-cleaning) and [commercial cleaning](/services/commercial-cleaning). This is not a sometimes thing. It is our standard.
 
 ### Smarter Methods
 
@@ -93,7 +96,7 @@ Eco friendly cleaning should generate less trash, not more. That means reusable 
 
 ## Greenwashing: How to Spot Fake "Green" Claims
 
-Greenwashing is when a company uses eco friendly language without the substance to back it up. It is everywhere in the cleaning industry.
+Greenwashing is when a company uses eco friendly language without the substance to back it up. It is everywhere in the cleaning industry in 2026.
 
 ### Red Flags
 
@@ -103,6 +106,8 @@ Greenwashing is when a company uses eco friendly language without the substance 
 - **No third-party verification.** If a company says their products are safe, ask who verified that claim.
 
 ### What to Ask Your Cleaning Service
+
+Run any company through what I call **The Four Question Filter**:
 
 - What specific products do you use? Can I see the labels?
 - Are your products EPA Safer Choice certified or carry another third-party certification?
@@ -139,7 +144,7 @@ It also protects the local environment. Everything that goes down the drain or i
 
 ## What Alexa's Cleaning Services Does
 
-We committed to EPA Safer Choice products from day one. It was not a marketing decision. It was a values decision. We clean people's homes. We are in their personal spaces. Using the safest effective products available is the bare minimum.
+We committed to EPA Safer Choice products from day one, and our [eco cleaning service](/services/eco-cleaning) is built around them. It was not a marketing decision. It was a values decision. We clean people's homes. We are in their personal spaces. Using the safest effective products available is the bare minimum.
 
 We pair those products with professional-grade HEPA vacuums, microfiber cleaning systems, and trained staff who know how to clean thoroughly without excess product waste.
 

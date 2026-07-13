@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { services } from "@/data/services";
+import { getAllBlogPosts } from "@/lib/content";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
@@ -10,6 +11,41 @@ import ServicePageClient from "./ServicePageClient";
 
 const residential = ["house-cleaning", "deep-cleaning", "moving-cleaning", "eco-cleaning", "window-cleaning", "floor-cleaning", "one-time-cleaning", "weekly-cleaning", "bi-weekly-cleaning", "monthly-cleaning", "airbnb-cleaning", "apartment-cleaning"];
 const commercial = ["commercial-cleaning", "church-cleaning", "warehouse-cleaning", "gym-cleaning", "daycare-cleaning", "medical-cleaning", "retail-cleaning", "janitorial-cleaning", "disinfecting-cleaning", "post-construction-cleaning"];
+
+// Service slug → most relevant blog guide slug (internal linking, service → blog)
+const serviceGuides: Record<string, string> = {
+  "airbnb-cleaning": "airbnb-turnover-cleaning-guide-sacramento-hosts",
+  "apartment-cleaning": "apartment-cleaning-services-renters",
+  "deep-cleaning": "deep-cleaning-vs-regular-cleaning",
+  "one-time-cleaning": "deep-cleaning-vs-regular-cleaning",
+  "eco-cleaning": "eco-friendly-cleaning-what-it-means",
+  "gym-cleaning": "gym-cleaning-best-practices",
+  "house-cleaning": "how-often-professional-house-cleaning",
+  "weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
+  "bi-weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
+  "monthly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
+  "moving-cleaning": "move-out-cleaning-checklist-deposit",
+  "post-construction-cleaning": "post-construction-cleaning-what-builders-leave",
+  "floor-cleaning": "professional-floor-cleaning-types-methods",
+  "retail-cleaning": "retail-store-cleaning-first-impressions",
+  "daycare-cleaning": "why-daycare-needs-professional-cleaning",
+  "church-cleaning": "why-sacramento-churches-need-professional-cleaning-services",
+  "disinfecting-cleaning": "importance-of-disinfection-commercial-spaces",
+  "commercial-cleaning": "importance-of-disinfection-commercial-spaces",
+  "medical-cleaning": "importance-of-disinfection-commercial-spaces",
+  "janitorial-cleaning": "what-professional-cleaners-do",
+  "window-cleaning": "what-professional-cleaners-do",
+  "warehouse-cleaning": "what-professional-cleaners-do",
+};
+
+const areaLinks = [
+  { name: "Placerville", href: "/areas/placerville" },
+  { name: "Cameron Park", href: "/areas/cameron-park" },
+  { name: "Shingle Springs", href: "/areas/shingle-springs" },
+  { name: "Diamond Springs", href: "/areas/diamond-springs" },
+  { name: "El Dorado Hills", href: "/areas/el-dorado-hills" },
+  { name: "Pollock Pines", href: "/areas/pollock-pines" },
+];
 
 function getRelatedServices(currentSlug: string) {
   const isCommercial = commercial.includes(currentSlug);
@@ -92,13 +128,20 @@ export default async function ServicePage({
     ],
   };
 
+  const guideSlug = serviceGuides[slug];
+  const guide = guideSlug
+    ? getAllBlogPosts().find((p) => p.slug === guideSlug) || null
+    : null;
+
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
     name: service.title,
     description: service.metaDescription,
+    url: `https://www.alexascleaningplacerville.com/services/${slug}`,
     provider: {
       "@type": "LocalBusiness",
+      "@id": "https://www.alexascleaningplacerville.com/#business",
       name: "Alexa's Cleaning Services",
       telephone: "+1-530-214-6361",
       email: "alexascleaningplacerville@gmail.com",
@@ -138,6 +181,24 @@ export default async function ServicePage({
           backgroundImage={service.heroImage}
         />
 
+        {/* Quick Answer (AEO) */}
+        <section className="bg-yellow/20 py-8">
+          <div className="mx-auto max-w-[800px] px-6">
+            <div className="rounded-2xl border border-yellow/60 bg-white p-6">
+              <p className="mb-1 text-[12px] font-semibold tracking-widest text-burgundy/50 uppercase">
+                Quick Answer
+              </p>
+              <p className="text-[16px] leading-relaxed text-dark-gray">
+                Alexa&apos;s Cleaning Services provides {service.title.toLowerCase()}{" "}
+                in Placerville and throughout El Dorado County, CA. Licensed
+                (#074540) and insured, 15+ years in business, 5.0 stars on
+                Google. No contracts and no rescheduling fees. Call (530)
+                214-6361 for a free quote.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Description */}
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-[800px] px-6">
@@ -149,6 +210,39 @@ export default async function ServicePage({
                 {paragraph}
               </p>
             ))}
+
+            {/* Area links (internal linking: service → area pages) */}
+            <div className="mt-10 rounded-2xl bg-light-bg p-6">
+              <p className="mb-3 text-[14px] font-semibold text-burgundy">
+                {service.title} is available in:
+              </p>
+              <div className="flex flex-wrap gap-2.5">
+                {areaLinks.map((area) => (
+                  <Link
+                    key={area.href}
+                    href={area.href}
+                    className="rounded-full bg-yellow/40 px-4 py-2 text-[14px] font-medium text-burgundy transition-colors hover:bg-yellow/70"
+                  >
+                    {area.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Related guide (internal linking: service → blog) */}
+            {guide && (
+              <Link
+                href={`/blog/${guide.slug}`}
+                className="group mt-6 block rounded-2xl border border-burgundy/10 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <p className="mb-1 text-[12px] font-semibold tracking-widest text-burgundy/50 uppercase">
+                  From Our Blog
+                </p>
+                <p className="text-[17px] font-semibold text-burgundy group-hover:text-red-highlight">
+                  {guide.title} &rarr;
+                </p>
+              </Link>
+            )}
           </div>
         </section>
 

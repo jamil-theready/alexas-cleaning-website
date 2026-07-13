@@ -15,6 +15,7 @@ export interface BlogFrontmatter {
   metaTitle: string;
   metaDescription: string;
   date: string;
+  updated?: string;
   image: string;
   imageAlt: string;
   excerpt: string;

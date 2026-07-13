@@ -4,6 +4,7 @@ title: "Moving Cleaning Checklist: How to Get Your Deposit Back"
 metaTitle: "Moving Cleaning Checklist | Get Your Deposit Back"
 metaDescription: "Get your full deposit back with this move-out cleaning checklist. Professional move-out cleaning in Placerville and El Dorado County. No contracts."
 date: "2025-10-05"
+updated: "2026-07-13"
 image: "/images/blog/moving-cleaning.jpg"
 imageAlt: "Empty home being cleaned during moving process"
 excerpt: "The moving cleaning checklist that helps you get your deposit back. Every task your landlord checks, organized room by room."
@@ -39,7 +40,9 @@ You are moving out. Boxes are packed. The truck is reserved. And somewhere in th
 
 The difference between getting your full deposit back and losing hundreds of dollars often comes down to one thing: how clean you leave the place.
 
-At Alexa's Cleaning Services, we handle move-out cleanings across Placerville and El Dorado County every week. Here is the exact checklist we follow to make sure our clients get their deposits back.
+**A complete moving cleaning checklist covers the kitchen, bathrooms, closets, window tracks, and light switches, and as of 2026 professional move-out cleaning in the Placerville area runs $200 to $500, usually far less than a landlord's cleaning deduction.**
+
+At Alexa's Cleaning Services, we handle [move-out cleanings](/services/moving-cleaning) across Placerville and El Dorado County every week. Here is the exact checklist we follow to make sure our clients get their deposits back.
 
 ---
 
@@ -155,7 +158,7 @@ A thorough move-out clean takes 4 to 8 hours depending on the size and condition
 - Your deposit is large enough that professional cleaning pays for itself
 - Landlord has a reputation for strict inspections
 
-Professional move-out cleaning typically costs $200 to $500 depending on the size of the property. If your deposit is $1,500 or more, the math works in your favor.
+As of 2026, professional move-out cleaning typically costs $200 to $500 depending on the size of the property. If your deposit is $1,500 or more, the math works in your favor.
 
 ---
 

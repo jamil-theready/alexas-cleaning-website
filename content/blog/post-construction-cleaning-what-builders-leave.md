@@ -4,6 +4,7 @@ title: "Post-Construction Cleaning: What Builders Leave Behind"
 metaTitle: "Post-Construction Cleaning Sacramento | Alexa's Cleaning"
 metaDescription: "Just finished a renovation or new build? Here is what post-construction cleaning involves and why your regular cleaner is not equipped to handle it."
 date: "2026-01-05"
+updated: "2026-07-13"
 image: "/images/blog/post-construction.jpg"
 imageAlt: "Post-construction cleaning removing dust and debris from new build"
 excerpt: "Builders leave behind more mess than you expect. What post-construction cleaning covers and why you need a professional for it."
@@ -39,7 +40,9 @@ faqs:
 
 A homeowner in Placerville called me after a kitchen remodel. Her contractor said the job was "done" and the crew had "cleaned up." When I walked in, there was drywall dust on every surface within 30 feet of the kitchen. Inside drawers. On top of the fridge. Coating the living room curtains.
 
-That is not a contractor's idea of dirty. That is their idea of clean. And it is why post-construction cleaning exists as its own category.
+That is not a contractor's idea of dirty. That is their idea of clean. And it is why [post-construction cleaning](/services/post-construction-cleaning) exists as its own category.
+
+**Post-construction cleaning removes construction dust, paint splatters, adhesive residue, and debris that regular cleaning cannot handle, and as of 2026 it typically costs $250 to $2,500 or more depending on project size.**
 
 ---
 
@@ -81,7 +84,7 @@ Fine particulate from drywall, concrete, and wood dust is a respiratory irritant
 
 ### Surface Damage
 
-Drywall dust is abite. If you wipe it off a hardwood floor with a dry cloth, you are essentially sanding the finish. If it sits on natural stone countertops, moisture can cause it to bond and stain. Proper removal requires the right technique for each surface type.
+Drywall dust is abrasive. If you wipe it off a hardwood floor with a dry cloth, you are essentially sanding the finish. If it sits on natural stone countertops, moisture can cause it to bond and stain. Proper removal requires the right technique for each surface type.
 
 ### Appliance Issues
 
@@ -100,7 +103,7 @@ Post-construction cleaning is priced differently than regular cleaning because t
 | New construction (full house) | $800 to $2,500+ |
 | Single room addition | $200 to $400 |
 
-These ranges depend on square footage, the type of construction work, and how much dust and debris are present.
+These ranges are current as of 2026 and depend on square footage, the type of construction work, and how much dust and debris are present.
 
 ---
 

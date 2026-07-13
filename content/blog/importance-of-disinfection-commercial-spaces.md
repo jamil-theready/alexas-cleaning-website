@@ -4,6 +4,7 @@ title: "The Importance of Disinfection in Commercial Spaces"
 metaTitle: "Disinfection in Commercial Spaces | Why It Matters"
 metaDescription: "Why disinfection matters for offices, stores, and commercial facilities. Professional disinfection services in Placerville and El Dorado County."
 date: "2025-10-10"
+updated: "2026-07-13"
 image: "/images/blog/commercial-disinfection.jpg"
 imageAlt: "Commercial space being professionally disinfected"
 excerpt: "Why commercial disinfection matters for employee health, customer safety, and business liability. Beyond basic cleaning."
@@ -35,11 +36,13 @@ faqs:
 
 ## The Importance of Disinfection in Commercial Spaces
 
+**Commercial disinfection means killing the bacteria and viruses that cleaning alone leaves behind on high-touch surfaces, and it is the step that protects your staff, your customers, and your liability.**
+
 Cleaning and disinfection are not the same thing. Cleaning removes visible dirt and debris. Disinfection kills bacteria, viruses, and other pathogens on surfaces. A space can look clean and still be covered in harmful microorganisms.
 
 For commercial spaces, that distinction matters. Your employees, customers, clients, and visitors are all touching the same surfaces throughout the day. Door handles, elevator buttons, shared desks, conference room tables, point-of-sale terminals. Every one of these is a transmission point.
 
-Alexa's Cleaning Services provides professional disinfection as part of our commercial cleaning throughout Placerville and El Dorado County. Here is why it should be a priority for your business.
+Alexa's Cleaning Services provides professional disinfection as part of our [commercial cleaning](/services/commercial-cleaning) throughout Placerville and El Dorado County. Here is why it should be a priority for your business.
 
 ---
 
@@ -83,7 +86,7 @@ Regular disinfection of high-touch surfaces reduces the spread of common illness
 
 When clients visit your office or customers enter your store, visible cleanliness signals professionalism. But knowing that surfaces are disinfected adds another layer of trust. Businesses that communicate their cleaning and disinfection practices build confidence with the people they serve.
 
-This is especially important for healthcare offices, childcare facilities, fitness centers, and food service establishments where hygiene expectations are highest.
+This is especially important for [healthcare offices](/services/medical-cleaning), childcare facilities, [fitness centers](/services/gym-cleaning), and food service establishments where hygiene expectations are highest.
 
 ---
 
@@ -123,7 +126,7 @@ Not every surface needs the same level of attention. Focus your disinfection eff
 
 ## Choosing the Right Disinfectant
 
-Not all disinfectants are equal. The EPA maintains a list of registered disinfectants with proven efficacy against specific pathogens. When selecting products for your facility, look for EPA registration numbers on the label.
+Not all disinfectants are equal. As of 2026, the EPA maintains a list of registered disinfectants with proven efficacy against specific pathogens. When selecting products for your facility, look for EPA registration numbers on the label.
 
 ### Key Factors
 
@@ -147,13 +150,13 @@ At Alexa's Cleaning Services, we use EPA-registered disinfectants that balance e
 | General offices | 2 to 3 times per week |
 | Warehouses | Weekly |
 
-These are starting points. Your specific needs depend on foot traffic volume, the nature of your business, and the vulnerability of the people using the space.
+These are the starting points we use as of July 2026. Your specific needs depend on foot traffic volume, the nature of your business, and the vulnerability of the people using the space.
 
 ---
 
 ## Building a Disinfection Protocol
 
-A solid disinfection protocol is not just "spray and wipe." It is a documented system.
+A solid disinfection protocol is not just "spray and wipe." It is a documented system. Here is **The 5-Step Disinfection Protocol** we build for commercial clients.
 
 ### Step 1: Identify High-Touch Surfaces
 
@@ -179,9 +182,9 @@ Seasonally review your protocol. Increase frequency during cold and flu season. 
 
 ## What Alexa's Cleaning Services Provides
 
-We integrate disinfection into every commercial cleaning service we perform. Our approach follows the clean-first-then-disinfect standard using EPA-registered products appropriate for your specific facility.
+We integrate [disinfection](/services/disinfecting-cleaning) into every commercial cleaning service we perform. Our approach follows the clean-first-then-disinfect standard using EPA-registered products appropriate for your specific facility.
 
-We provide documented cleaning logs so you always know when disinfection was performed and which areas were covered. Our team is trained on proper dwell times, surface compatibility, and safety protocols.
+In 2026, we provide documented cleaning logs with every visit so you always know when disinfection was performed and which areas were covered. Our team is trained on proper dwell times, surface compatibility, and safety protocols.
 
 Licensed and insured. No contracts. No rescheduling fees. Serving businesses throughout Placerville and El Dorado County.
 

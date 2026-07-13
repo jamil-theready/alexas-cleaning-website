@@ -4,6 +4,7 @@ title: "Move-Out Cleaning: The Complete Checklist to Get Your Deposit Back"
 metaTitle: "Move-Out Cleaning Checklist Sacramento | Alexa's Cleaning"
 metaDescription: "Moving out and want your full deposit back? Here is the complete move-out cleaning checklist landlords use to inspect your unit in Sacramento and El Dorado County."
 date: "2026-01-10"
+updated: "2026-07-13"
 image: "/images/blog/move-out-cleaning.jpg"
 imageAlt: "Empty apartment being cleaned for move-out inspection"
 excerpt: "The complete move-out cleaning checklist to help you get your full deposit back. Room-by-room guide for renters and homeowners."
@@ -38,6 +39,8 @@ faqs:
 ## Move-Out Cleaning: The Complete Checklist to Get Your Deposit Back
 
 I have cleaned hundreds of apartments and rental homes the week before a walkthrough. And I can tell you exactly what happens when someone tries to do it themselves the night before: they miss half the checklist, run out of time, and lose $500 to $1,500 off their deposit for "cleaning charges."
+
+**A move-out clean means cleaning every room to inspection standard, including inside appliances, cabinets, closets, baseboards, window tracks, and every fixture your landlord will check.**
 
 Your landlord is not inspecting vibes. They have a checklist. If you want your money back, you need one too.
 
@@ -100,7 +103,7 @@ These are the items that cost people their deposits:
 
 ## The Deposit Math
 
-Let me put this in perspective.
+Let me put this in perspective. These numbers hold as of July 2026.
 
 | | Cost |
 |---|---|
@@ -117,13 +120,15 @@ A $200 cleaning that saves you $800 in deductions is the easiest financial decis
 
 ### The Timeline
 
+This is **The 2-Week Countdown** I walk every client through.
+
 #### 2 Weeks Before Move-Out
 
 Start packing. The more stuff you move out, the more thorough the cleaning can be. An empty room takes half the time to clean as a furnished one.
 
 #### 3 to 5 Days Before Walkthrough
 
-Book your professional move-out clean. This gives you time to do a final walkthrough yourself after the cleaning and catch anything that needs a second pass.
+Book your professional [move-out clean](/services/moving-cleaning). In 2026, summer dates book up first, so do not wait. This gives you time to do a final walkthrough yourself after the cleaning and catch anything that needs a second pass.
 
 #### Day Before Walkthrough
 
@@ -143,7 +148,7 @@ A professional team knocks out a full move-out clean in 3 to 5 hours because we 
 
 ### Alexa's Story
 
-One of our regulars in El Dorado Hills moved out of a townhouse she had rented for five years. Five years of cooking, two kids, a dog. She booked us for the move-out and we spent about 4.5 hours on the unit.
+One of our regulars in [El Dorado Hills](/areas/el-dorado-hills) moved out of a townhouse she had rented for five years. Five years of cooking, two kids, a dog. She booked us for the move-out and we spent about 4.5 hours on the unit.
 
 Her landlord called her the next day to say it was the cleanest move-out he had processed in 20 years of managing properties. Full deposit returned. Zero deductions.
 
@@ -153,4 +158,4 @@ That phone call is why we do this.
 
 ## Book Your Move-Out Clean
 
-Moving in Placerville or El Dorado County? [Get a free estimate](https://www.alexascleaningplacerville.com) or call **(530) 214-6361**. Book at least one week before your walkthrough for guaranteed availability.
+Moving in [Placerville](/areas/placerville) or El Dorado County? [Get a free estimate](https://www.alexascleaningplacerville.com) or call **(530) 214-6361**. Book at least one week before your walkthrough for guaranteed availability, especially during the 2026 summer moving season.

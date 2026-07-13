@@ -4,6 +4,7 @@ title: "Move-Out Cleaning in Sacramento: What Your Landlord Actually Inspects"
 metaTitle: "Move-Out Cleaning Sacramento | Pass Inspection"
 metaDescription: "Moving out in Sacramento or El Dorado County? Here are the exact areas your landlord inspects during a move-out walkthrough and how to pass every one."
 date: "2025-12-20"
+updated: "2026-07-13"
 image: "/images/blog/landlord-inspection.jpg"
 imageAlt: "Landlord inspecting a clean apartment after move-out cleaning"
 excerpt: "What Sacramento landlords look for during move-out inspections and how professional cleaning helps you pass every time."
@@ -37,11 +38,13 @@ faqs:
 
 ## Move-Out Cleaning in Sacramento: What Your Landlord Actually Inspects
 
-Last month, a tenant in Diamond Springs called me furious. Her landlord had withheld $600 from her deposit for "cleaning." She said she had spent an entire day cleaning the apartment herself before moving out.
+Last month, a tenant in [Diamond Springs](/areas/diamond-springs) called me furious. Her landlord had withheld $600 from her deposit for "cleaning." She said she had spent an entire day cleaning the apartment herself before moving out.
 
-I asked her three questions. Did you clean inside the oven? Did you wipe the baseboards? Did you clean the window tracks?
+I asked her my **Three-Question Test**. Did you clean inside the oven? Did you wipe the baseboards? Did you clean the window tracks?
 
 Three no's. That is $600 in deductions right there.
+
+**During a move-out inspection, landlords check the kitchen appliances inside and out, bathroom grout and fixtures, baseboards, window tracks, and the walls in every room.**
 
 Your landlord is not doing a vibe check. They are running through a checklist. Here is exactly what is on it.
 
@@ -87,7 +90,7 @@ The kitchen accounts for more deposit deductions than any other room. Landlords 
 
 ## Know Your Rights
 
-California law is specific about security deposits. Under [California Civil Code Section 1950.5](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.5.&lawCode=CIV), your landlord must:
+California law is specific about security deposits, and the rules still stand as of 2026. Under [California Civil Code Section 1950.5](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.5.&lawCode=CIV), your landlord must:
 
 - Return your deposit within 21 days of moving out
 - Provide an itemized statement of any deductions
@@ -110,16 +113,16 @@ The key distinction: cleaning issues are almost never considered normal wear and
 
 ## The Professional Advantage
 
-I have seen hundreds of move-out inspections. The difference between tenants who lose $500+ and tenants who get their full deposit back almost always comes down to one thing: whether they had a professional do the final clean.
+I have seen hundreds of move-out inspections. The difference between tenants who lose $500+ and tenants who get their full deposit back almost always comes down to one thing: whether they had a [professional move-out clean](/services/moving-cleaning) done.
 
 Not because they are bad at cleaning. Because they are tired. They have been packing for days. They have a moving truck to return. They have a new place to unpack. Scrubbing the inside of an oven at 11pm the night before a walkthrough is not when your best work happens.
 
 ### What We Catch That You Will Miss
 
-After doing this hundreds of times, we know exactly where landlords look. The exhaust fan. The window tracks. The cabinet interiors. The base of the toilet. The refrigerator gasket. These are the items that add up to $400, $600, $800 in deductions.
+After doing this hundreds of times, we know exactly where landlords look. The exhaust fan. The window tracks. The cabinet interiors. The base of the toilet. The refrigerator gasket. In 2026, these are the items that add up to $400, $600, $800 in deductions.
 
 ---
 
 ## Book Before You Move
 
-[Get a free estimate](https://www.alexascleaningplacerville.com) or call **(530) 214-6361**. Book at least 3 to 5 days before your walkthrough. Serving Placerville and all of El Dorado County.
+[Get a free estimate](https://www.alexascleaningplacerville.com) or call **(530) 214-6361**. Book at least 3 to 5 days before your walkthrough, especially during the 2026 summer moving season. Serving [Placerville](/areas/placerville) and all of El Dorado County.

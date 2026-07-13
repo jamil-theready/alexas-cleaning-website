@@ -48,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/author/alejandra-ortiz`,
+      lastModified: "2026-07-13",
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
       url: `${BASE_URL}/privacy-policy`,
       lastModified: "2026-03-16",
       changeFrequency: "yearly",
@@ -77,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: post.date,
+    lastModified: post.updated || post.date,
     changeFrequency: "monthly" as const,
     priority: 0.6,
   }));

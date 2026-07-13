@@ -4,6 +4,7 @@ title: "Professional Floor Cleaning: Types and Methods"
 metaTitle: "Professional Floor Cleaning | Types & Methods"
 metaDescription: "Learn about professional floor cleaning methods for hardwood, tile, carpet, and more. Serving Placerville and El Dorado County. Licensed and insured."
 date: "2025-10-28"
+updated: "2026-07-13"
 image: "/images/blog/floor-cleaning.jpg"
 imageAlt: "Professional floor cleaning on hardwood floors"
 excerpt: "Professional floor cleaning methods for hardwood, tile, carpet, and vinyl. The right approach for every floor type in your home."
@@ -40,7 +41,9 @@ Floors take more abuse than any other surface in your home or business. Every fo
 
 Dirty floors make a clean room look neglected. Clean floors make even a cluttered room feel maintained. That is why floor care matters more than most people realize.
 
-At Alexa's Cleaning Services, we clean floors of every type across homes and businesses in Placerville and El Dorado County. Here is what you need to know about professional floor cleaning methods and how to take care of what is under your feet.
+**Professional floor cleaning uses hot water extraction for carpet, pH-neutral solutions for hardwood, steam cleaning for tile and grout, and buffing for vinyl, and as of 2026 carpet should be professionally cleaned every 12 to 18 months to protect manufacturer warranties.**
+
+At Alexa's Cleaning Services, we clean [floors](/services/floor-cleaning) of every type across homes and businesses in Placerville and El Dorado County. Here is what you need to know about professional floor cleaning methods and how to take care of what is under your feet.
 
 ---
 
@@ -164,7 +167,7 @@ Regular cleaning prevents staining from oil, chemicals, and tire marks in garage
 
 The biggest mistake people make is treating all floors the same. Using the wrong product or method can cause permanent damage. Vinegar on marble etches the surface. Steam on laminate causes warping. Too much water on hardwood leads to cupping.
 
-Professional cleaning services like Alexa's Cleaning Services identify your floor type and apply the correct method. It is one of the simplest ways to protect your investment and keep your space looking its best.
+As of 2026, professional cleaning services like Alexa's Cleaning Services identify your floor type and apply the correct method. It is one of the simplest ways to protect your investment and keep your space looking its best.
 
 We are licensed and insured. We serve homes and businesses throughout Placerville and El Dorado County. No contracts. No rescheduling fees.
 

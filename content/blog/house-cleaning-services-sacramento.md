@@ -4,6 +4,7 @@ title: "The Complete Guide to House Cleaning Services in Sacramento"
 metaTitle: "House Cleaning Services Sacramento CA | Alexa's Cleaning"
 metaDescription: "Everything you need to know about hiring house cleaning services in Sacramento and El Dorado County. Pricing, what to expect, and how to find the right fit."
 date: "2026-02-15"
+updated: "2026-07-13"
 image: "/images/blog/house-cleaning.jpg"
 imageAlt: "Professional house cleaning service in Sacramento and El Dorado County"
 excerpt: "Everything you need to know about hiring house cleaning services in Sacramento. Pricing, what to expect, and how to find the right fit."
@@ -39,6 +40,8 @@ faqs:
 
 I started Alexa's Cleaning with a mop, a bucket, and one client who found me on Nextdoor. Three years and 307 homes later, the number one question people ask me has not changed: "How do I actually find a good cleaner?"
 
+**As of 2026, house cleaning in Sacramento costs $80 to $280 for a standard clean and $150 to $450 for a deep clean, depending on home size and condition.**
+
 This guide breaks down everything. What cleaning services cost in the Sacramento area, what you should expect, and the stuff nobody tells you before you book.
 
 ---
@@ -49,7 +52,7 @@ Not all cleaning services are built the same. Before you book anyone, you need t
 
 ### Standard Cleaning
 
-This is your maintenance clean. The basics that keep a house livable between deeper sessions.
+This is your maintenance clean. The basics that keep a house livable between deeper sessions. It is what our [house cleaning service](/services/house-cleaning) covers on every recurring visit.
 
 - Vacuuming and mopping all floors
 - Wiping kitchen counters and appliances
@@ -59,7 +62,7 @@ This is your maintenance clean. The basics that keep a house livable between dee
 
 ### Deep Cleaning
 
-This is the reset button. Everything in a standard clean plus the stuff that builds up over weeks.
+This is the reset button. Everything in a standard clean plus the stuff that builds up over weeks. See the full scope on our [deep cleaning page](/services/deep-cleaning).
 
 - Baseboards, door frames, and light switches
 - Inside the oven and microwave
@@ -70,7 +73,7 @@ This is the reset button. Everything in a standard clean plus the stuff that bui
 
 ### Move-Out or One-Time Cleaning
 
-The heavy hitter. Usually booked when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/move-out-cleaning-checklist-deposit) in a separate guide.
+The heavy hitter. Usually booked as a [one-time cleaning](/services/one-time-cleaning) when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/move-out-cleaning-checklist-deposit) in a separate guide.
 
 ---
 
@@ -87,7 +90,7 @@ I am going to give you real numbers. Not the vague "it depends" answer most comp
 | 3 bed / 2 bath | $130 to $200 | $220 to $350 |
 | 4+ bed / 3 bath | $180 to $280 | $300 to $450+ |
 
-These ranges reflect what we see across Placerville, Folsom, El Dorado Hills, and greater Sacramento. Pricing varies based on the condition of the home, how long it has been since the last professional clean, and whether you have pets.
+These ranges reflect what we see in 2026 across Placerville, Folsom, El Dorado Hills, and greater Sacramento. Pricing varies based on the condition of the home, how long it has been since the last professional clean, and whether you have pets.
 
 ### What Affects the Price
 
@@ -113,7 +116,7 @@ This is where I get personal. I built my business around the things that frustra
 
 - **Are you licensed and insured?** In California, this matters. If a cleaner breaks something or gets hurt in your home, you want to know you are covered. Check your county's [business license lookup](https://www.edcgov.us/Government/TaxCollector/Pages/Business-License-Information.aspx) to verify.
 - **Do you bring your own supplies?** Most professional services do. We use [EPA Safer Choice certified products](https://www.epa.gov/saferchoice) that are effective without leaving harsh residue.
-- **What is your cancellation policy?** Some companies charge $50+ for cancellations. We do not charge rescheduling fees because life happens.
+- **What is your cancellation policy?** As of 2026, some companies charge $50+ for cancellations. We do not charge rescheduling fees because life happens.
 - **Do you do background checks?** Anyone entering your home should be vetted. Period.
 
 ### Red Flags to Watch For
