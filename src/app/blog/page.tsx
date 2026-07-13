@@ -13,11 +13,6 @@ export const metadata: Metadata = {
     "Expert cleaning tips, guides, and advice from Alexa's Cleaning Services in Placerville, CA. Learn about house cleaning, deep cleaning, move-out cleaning, and more.",
 };
 
-function getBlogImage(index: number): string {
-  // Round-robin assign images 1-15 to the 15 posts
-  return `/images/blog/${index + 1}.jpg`;
-}
-
 export default function BlogIndex() {
   const blogPosts = getAllBlogPosts();
   return (
@@ -33,7 +28,7 @@ export default function BlogIndex() {
           <div className="mx-auto max-w-7xl px-6">
             {/* Blog Grid */}
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {blogPosts.map((post, index) => (
+              {blogPosts.map((post) => (
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
@@ -42,8 +37,8 @@ export default function BlogIndex() {
                   {/* Card Image */}
                   <div className="relative aspect-[16/10] w-full overflow-hidden">
                     <Image
-                      src={getBlogImage(index)}
-                      alt={post.title}
+                      src={post.image}
+                      alt={post.imageAlt}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

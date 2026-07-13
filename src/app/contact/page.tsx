@@ -1,17 +1,26 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import type { FormEvent } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hcaptchaToken, setHcaptchaToken] = useState("");
+  const hcaptchaRef = useRef<HCaptcha>(null);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+
+    if (!hcaptchaToken) {
+      alert("Please complete the captcha verification.");
+      return;
+    }
+
     setIsSubmitting(true);
 
     const form = e.currentTarget;
@@ -19,6 +28,7 @@ export default function ContactPage() {
     formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
     formData.append("subject", "New Contact Form - Alexa's Cleaning");
     formData.append("from_name", "Alexa's Cleaning Website");
+    formData.append("h-captcha-response", hcaptchaToken);
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -171,6 +181,14 @@ export default function ContactPage() {
                       placeholder="Tell us about your cleaning needs..."
                     />
                   </div>
+
+                  <HCaptcha
+                    sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
+                    reCaptchaCompat={false}
+                    onVerify={(token) => setHcaptchaToken(token)}
+                    onExpire={() => setHcaptchaToken("")}
+                    ref={hcaptchaRef}
+                  />
 
                   <button
                     type="submit"

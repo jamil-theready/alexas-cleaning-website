@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Sync Web3Forms lead emails into Gina's leads Google Sheet.
+"""Sync Web3Forms lead emails into Alexa's Cleaning leads Google Sheet.
 
 Connects to jamil@thereadyconsult.com via IMAP, finds new Web3Forms
-submission emails for Gina (by subject), parses Name/Phone/Email/Message,
-appends to Gina Notary Leads 2026 sheet, and tags the email with a
-'Synced/GinaLeads' label so we don't process it twice.
+submission emails for Alexa's Cleaning (by subject), parses Name/Phone/Email/Message,
+appends to Alexa's Cleaning Leads sheet, and tags the email with a
+the GMAIL_LABEL label so we don't process it twice.
 
 Designed to be idempotent — safe to run on a cron every 15 minutes.
 """
@@ -22,7 +22,7 @@ IMAP_HOST = "imap.gmail.com"
 IMAP_USER = "jamil@thereadyconsult.com"
 GMAIL_LABEL = "Synced-AlexaLeads"
 
-SHEET_ID = "1k_QjBgP2sF_sIMu2TFnczAmhyFrSOgFjMMrXJTPM9JU"
+SHEET_ID = "1obnF3U2LBZ6CCdMThD7p8WOTTHYJo3FcXPuaV892AvA"
 SHEET_TAB = "Sheet1"
 
 # Subjects we recognize as Alexa's Cleaning Services leads
@@ -95,7 +95,7 @@ def main() -> int:
             msg = email.message_from_bytes(raw)
             subject = msg.get("Subject", "")
             if not any(p.search(subject) for p in SUBJECT_PATTERNS):
-                continue  # not a Gina lead
+                continue  # not a Alexa's Cleaning lead
 
             date_hdr = msg.get("Date", "")
             try:

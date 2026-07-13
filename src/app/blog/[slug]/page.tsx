@@ -26,7 +26,6 @@ export async function generateMetadata({
   if (!post) {
     return { title: "Post Not Found" };
   }
-  const blogImage = `/images/blog/${posts.findIndex((p) => p.slug === slug) + 1}.jpg`;
   return {
     title: post.metaTitle,
     description: post.metaDescription,
@@ -41,10 +40,10 @@ export async function generateMetadata({
       url: `https://www.alexascleaningplacerville.com/blog/${slug}`,
       images: [
         {
-          url: `https://www.alexascleaningplacerville.com${blogImage}`,
+          url: `https://www.alexascleaningplacerville.com${post.image}`,
           width: 1200,
           height: 630,
-          alt: post.title,
+          alt: post.imageAlt,
         },
       ],
     },
@@ -66,7 +65,6 @@ export default async function BlogPostPage({
   }
 
   const contentHtml = markdownToHtml(post.content);
-  const blogImage = `/images/blog/${postIndex + 1}.jpg`;
   const nextPost = blogPosts[postIndex + 1] || null;
 
   // Extract h2 headings for TOC
@@ -101,7 +99,7 @@ export default async function BlogPostPage({
       "@type": "Organization",
       name: "Alexa's Cleaning Services",
     },
-    image: `https://www.alexascleaningplacerville.com${blogImage}`,
+    image: `https://www.alexascleaningplacerville.com${post.image}`,
   };
 
   // FAQ structured data
@@ -195,8 +193,8 @@ export default async function BlogPostPage({
               {/* Hero Image */}
               <div className="relative mb-8 aspect-[16/9] w-full overflow-hidden rounded-2xl">
                 <Image
-                  src={blogImage}
-                  alt={post.title}
+                  src={post.image}
+                  alt={post.imageAlt}
                   fill
                   className="object-cover"
                   sizes="(max-width: 800px) 100vw, 800px"

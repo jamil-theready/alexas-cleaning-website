@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { FormEvent } from "react";
 
 const sparklePositions = [
   { top: "8%", left: "75%", delay: 0, size: 8 },
@@ -27,138 +26,30 @@ function Sparkle({ top, left, delay, size }: { top: string; left: string; delay:
   );
 }
 
-function HeroForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
-    formData.append("subject", "New Hero Form - Alexa's Cleaning");
-    formData.append("from_name", "Alexa's Cleaning Website");
-
-    try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
-
-      // Log to Google Sheet (fire and forget)
-      fetch("https://script.google.com/macros/s/AKfycbxVET_StVWwbKJ5WGqk5XzeRZUfe_treYDv6FsHPj10qxyI_dvFI3yAkg6OdSgG2YlE/exec", {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          client: "Alexa's Cleaning",
-          name: `${formData.get("first_name")} ${formData.get("last_name")}`,
-          email: formData.get("email"),
-          phone: formData.get("phone"),
-          service: formData.get("frequency"),
-          message: formData.get("message"),
-        }),
-      }).catch(() => {});
-
-      if (res.ok) {
-        window.location.href = "/thank-you";
-      } else {
-        setIsSubmitting(false);
-        alert("Something went wrong. Please call us at (530) 214-6361.");
-      }
-    } catch {
-      setIsSubmitting(false);
-      alert("Something went wrong. Please call us at (530) 214-6361.");
-    }
-  }
-
+function HeroCTA() {
   return (
-    <div className="rounded-2xl bg-white p-6 shadow-lg" style={{ boxShadow: "0 8px 30px rgba(61, 7, 25, 0.12)" }}>
-      <h2 className="mb-4 font-[family-name:var(--font-serif)] text-[22px] text-burgundy">
+    <div className="rounded-2xl bg-white p-8 shadow-lg text-center" style={{ boxShadow: "0 8px 30px rgba(61, 7, 25, 0.12)" }}>
+      <h2 className="mb-3 font-[family-name:var(--font-serif)] text-[22px] text-burgundy">
         Get a Free Estimate
       </h2>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-        <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" aria-hidden="true" />
-        <div className="grid grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="hero_first_name" className="sr-only">First Name</label>
-            <input
-              type="text"
-              id="hero_first_name"
-              name="first_name"
-              required
-              placeholder="First Name"
-              className="w-full rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-            />
-          </div>
-          <div>
-            <label htmlFor="hero_last_name" className="sr-only">Last Name</label>
-            <input
-              type="text"
-              id="hero_last_name"
-              name="last_name"
-              required
-              placeholder="Last Name"
-              className="w-full rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-            />
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="hero_phone" className="sr-only">Phone</label>
-            <input
-              type="tel"
-              id="hero_phone"
-              name="phone"
-              placeholder="Phone"
-              className="w-full rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-            />
-          </div>
-          <div>
-            <label htmlFor="hero_email" className="sr-only">Email</label>
-            <input
-              type="email"
-              id="hero_email"
-              name="email"
-              required
-              placeholder="Email"
-              className="w-full rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-            />
-          </div>
-        </div>
-        <div>
-          <label htmlFor="hero_frequency" className="sr-only">Cleaning Frequency</label>
-          <select
-            id="hero_frequency"
-            name="frequency"
-            className="w-full rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-          >
-            <option value="">Cleaning Frequency</option>
-            <option value="one-time">One Time</option>
-            <option value="weekly">Weekly</option>
-            <option value="bi-weekly">Bi-Weekly</option>
-            <option value="monthly">Monthly</option>
-          </select>
-        </div>
-        <div>
-          <label htmlFor="hero_message" className="sr-only">Message</label>
-          <textarea
-            id="hero_message"
-            name="message"
-            rows={2}
-            placeholder="Tell us about your cleaning needs..."
-            className="w-full resize-none rounded-lg border border-burgundy/20 bg-light-bg px-3 py-2.5 text-[14px] text-dark-gray outline-none transition-colors focus:border-burgundy"
-          />
-        </div>
-        <button
-          type="submit"
-          disabled={isSubmitting}
-          className="w-full rounded-full bg-burgundy px-6 py-3 text-[15px] font-semibold text-white transition-opacity hover:opacity-90 disabled:opacity-60"
-        >
-          {isSubmitting ? "Sending..." : "Get My Free Quote"}
-        </button>
-      </form>
+      <p className="mb-6 text-[15px] text-dark-gray">
+        Tell us about your cleaning needs and we will get back to you right away.
+      </p>
+      <a
+        href="/contact"
+        className="inline-block w-full rounded-full bg-burgundy px-6 py-3 text-[15px] font-semibold text-white transition-opacity hover:opacity-90"
+      >
+        Get My Free Quote
+      </a>
+      <div className="mt-4 flex items-center justify-center gap-4">
+        <a href="tel:+15302146361" className="text-[14px] font-medium text-burgundy hover:underline">
+          (530) 214-6361
+        </a>
+        <span className="text-burgundy/30">|</span>
+        <a href="tel:+15303828642" className="text-[14px] font-medium text-burgundy hover:underline">
+          (530) 382-8642
+        </a>
+      </div>
       {/* License badge */}
       <div className="mt-4 flex items-center justify-center gap-2 rounded-lg bg-light-bg px-3 py-2">
         <svg className="h-4 w-4 shrink-0 text-burgundy" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -250,11 +141,11 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Desktop: Inline form; Mobile: Hero image */}
+        {/* Desktop: CTA card; Mobile: Hero image */}
         <div className={`lg:w-[45%] transition-all duration-700 delay-200 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
-          {/* Desktop form */}
+          {/* Desktop CTA */}
           <div className="hidden lg:block">
-            <HeroForm />
+            <HeroCTA />
           </div>
           {/* Mobile hero image */}
           <div className="relative lg:hidden">

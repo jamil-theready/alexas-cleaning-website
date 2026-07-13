@@ -8,8 +8,8 @@ import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
 import ServicePageClient from "./ServicePageClient";
 
-const residential = ["house-cleaning", "deep-cleaning", "moving-cleaning", "eco-cleaning", "window-cleaning", "floor-cleaning", "one-time-cleaning", "weekly-cleaning", "bi-weekly-cleaning", "monthly-cleaning"];
-const commercial = ["commercial-cleaning", "church-cleaning", "warehouse-cleaning", "gym-cleaning", "daycare-cleaning", "medical-cleaning", "retail-cleaning", "janitorial-cleaning", "disinfecting-cleaning"];
+const residential = ["house-cleaning", "deep-cleaning", "moving-cleaning", "eco-cleaning", "window-cleaning", "floor-cleaning", "one-time-cleaning", "weekly-cleaning", "bi-weekly-cleaning", "monthly-cleaning", "airbnb-cleaning", "apartment-cleaning"];
+const commercial = ["commercial-cleaning", "church-cleaning", "warehouse-cleaning", "gym-cleaning", "daycare-cleaning", "medical-cleaning", "retail-cleaning", "janitorial-cleaning", "disinfecting-cleaning", "post-construction-cleaning"];
 
 function getRelatedServices(currentSlug: string) {
   const isCommercial = commercial.includes(currentSlug);
