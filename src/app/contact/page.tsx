@@ -1,21 +1,16 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import type { FormEvent } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
-
-const HCAPTCHA_SITEKEY = "50b2fe65-b00b-4b9e-ad62-3ba471098be2";
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const hcaptchaRef = useRef<HCaptcha>(null);
-  const formDataRef = useRef<FormData | null>(null);
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -24,14 +19,6 @@ export default function ContactPage() {
     formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
     formData.append("subject", "New Contact Form - Alexa's Cleaning");
     formData.append("from_name", "Alexa's Cleaning Website");
-    formDataRef.current = formData;
-    hcaptchaRef.current?.execute();
-  }
-
-  async function handleVerify(token: string) {
-    const formData = formDataRef.current;
-    if (!formData) return;
-    formData.append("h-captcha-response", token);
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -63,8 +50,6 @@ export default function ContactPage() {
     } catch {
       setIsSubmitting(false);
       alert("Something went wrong. Please call us at (530) 214-6361.");
-    } finally {
-      hcaptchaRef.current?.resetCaptcha();
     }
   }
 
@@ -186,16 +171,6 @@ export default function ContactPage() {
                       placeholder="Tell us about your cleaning needs..."
                     />
                   </div>
-
-                  <HCaptcha
-                    sitekey={HCAPTCHA_SITEKEY}
-                    size="invisible"
-                    reCaptchaCompat={false}
-                    onVerify={handleVerify}
-                    onError={() => setIsSubmitting(false)}
-                    onExpire={() => setIsSubmitting(false)}
-                    ref={hcaptchaRef}
-                  />
 
                   <button
                     type="submit"
