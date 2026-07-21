@@ -19,6 +19,9 @@ export default function ContactPage() {
     formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
     formData.append("subject", "New Contact Form - Alexa's Cleaning");
     formData.append("from_name", "Alexa's Cleaning Website");
+    // Lead attribution: source page + referrer
+    formData.append("lead_page", window.location.pathname);
+    formData.append("lead_referrer", document.referrer || "direct");
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
