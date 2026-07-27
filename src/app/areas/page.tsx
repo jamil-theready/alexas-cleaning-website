@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in El Dorado County CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning across El Dorado County. Serving Placerville, Cameron Park, El Dorado Hills, Diamond Springs, Shingle Springs, and Pollock Pines. Call (530) 214-6361.",
+    "House cleaning across El Dorado County: Placerville, Cameron Park, El Dorado Hills, Diamond Springs, Shingle Springs, Pollock Pines. Call (530) 214-6361.",
   alternates: {
     canonical: "/areas",
   },

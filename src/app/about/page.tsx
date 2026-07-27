@@ -8,7 +8,8 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "About Alexa's Cleaning Services | Placerville CA",
   description:
-    "Learn about Alexa's Cleaning Services in Placerville CA. Founded by Alejandra Ortiz with 15+ years of experience. Licensed, insured, and trusted across El Dorado County.",
+    "Alexa's Cleaning Services in Placerville CA, founded by Alejandra Ortiz. 15+ years experience, licensed and insured, trusted across El Dorado County.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

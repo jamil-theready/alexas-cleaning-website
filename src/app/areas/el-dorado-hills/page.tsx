@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in El Dorado Hills CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning in El Dorado Hills CA. Licensed, insured, 15+ years experience. Serving Serrano, Town Center, and Silva Valley. Call (530) 214-6361.",
+    "Professional house cleaning in El Dorado Hills CA. Licensed, insured, 15+ years experience. Serving Serrano and Town Center. Call (530) 214-6361.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/areas/el-dorado-hills",
   },

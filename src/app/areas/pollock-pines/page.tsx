@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in Pollock Pines CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning in Pollock Pines CA. Licensed, insured, 15+ years experience. Serving the mountain community near Jenkinson Lake. Call (530) 214-6361.",
+    "Professional house cleaning in Pollock Pines CA. Licensed, insured, 15+ years experience. Serving the Jenkinson Lake area. Call (530) 214-6361.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/areas/pollock-pines",
   },

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | Alexa's Cleaning Services",
   description:
     "Terms and conditions for Alexa's Cleaning Services in Placerville CA. Review the terms that govern our cleaning services.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {
