@@ -24,7 +24,7 @@ const serviceGuides: Record<string, string> = {
   "weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
   "bi-weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
   "monthly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
-  "moving-cleaning": "move-out-cleaning-checklist-deposit",
+  "moving-cleaning": "moving-cleaning-checklist-get-deposit-back",
   "post-construction-cleaning": "post-construction-cleaning-what-builders-leave",
   "floor-cleaning": "professional-floor-cleaning-types-methods",
   "retail-cleaning": "retail-store-cleaning-first-impressions",

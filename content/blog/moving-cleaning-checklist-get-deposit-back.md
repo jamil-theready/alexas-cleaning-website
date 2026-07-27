@@ -4,7 +4,7 @@ title: "Moving Cleaning Checklist: How to Get Your Deposit Back"
 metaTitle: "Moving Cleaning Checklist | Get Your Deposit Back"
 metaDescription: "Get your full deposit back with this move-out cleaning checklist. Professional move-out cleaning in Placerville and El Dorado County. No contracts."
 date: "2025-10-05"
-updated: "2026-07-13"
+updated: "2026-07-27"
 image: "/images/blog/moving-cleaning.jpg"
 imageAlt: "Empty home being cleaned during moving process"
 excerpt: "The moving cleaning checklist that helps you get your deposit back. Every task your landlord checks, organized room by room."
@@ -159,6 +159,61 @@ A thorough move-out clean takes 4 to 8 hours depending on the size and condition
 - Landlord has a reputation for strict inspections
 
 As of 2026, professional move-out cleaning typically costs $200 to $500 depending on the size of the property. If your deposit is $1,500 or more, the math works in your favor.
+
+---
+
+## The Deposit Math
+
+Let me put this in perspective. These numbers hold as of July 2026.
+
+| | Cost |
+|---|---|
+| Average security deposit (2-bed, El Dorado County) | $1,500 to $2,500 |
+| Common cleaning deduction | $200 to $800 |
+| Professional move-out clean | $180 to $300 |
+| **Your savings** | **$0 to $2,200** |
+
+A $200 cleaning that saves you $800 in deductions is the easiest financial decision you will make during a move.
+
+---
+
+## When to Book
+
+### The Timeline
+
+This is **The 2-Week Countdown** I walk every client through.
+
+#### 2 Weeks Before Move-Out
+
+Start packing. The more stuff you move out, the more thorough the cleaning can be. An empty room takes half the time to clean as a furnished one.
+
+#### 3 to 5 Days Before Walkthrough
+
+Book your professional [move-out clean](/services/moving-cleaning). In 2026, summer dates book up first, so do not wait. This gives you time to do a final walkthrough yourself after the cleaning and catch anything that needs a second pass.
+
+#### Day Before Walkthrough
+
+Do a quick walk through every room. Check the oven, check the closets, check behind the toilets. Touch up anything that needs it.
+
+### What NOT to Do
+
+Do not wait until the day of your walkthrough. I have had panicked calls at 7am asking if we can clean a 3-bedroom apartment before a noon inspection. Sometimes we can make it work. Often we cannot. Plan ahead.
+
+---
+
+## DIY vs Professional: An Honest Take
+
+Can you do a move-out clean yourself? Yes. Will it take you 6 to 10 hours? Also yes. And you will likely miss the items on the "often missed" list above because you are exhausted from packing and moving.
+
+A professional team knocks out a full move-out clean in 3 to 5 hours because we have done it hundreds of times. We know exactly what landlords look for because we have seen the inspection checklists.
+
+### Alexa's Story
+
+One of our regulars in [El Dorado Hills](/areas/el-dorado-hills) moved out of a townhouse she had rented for five years. Five years of cooking, two kids, a dog. She booked us for the move-out and we spent about 4.5 hours on the unit.
+
+Her landlord called her the next day to say it was the cleanest move-out he had processed in 20 years of managing properties. Full deposit returned. Zero deductions.
+
+That phone call is why we do this.
 
 ---
 

@@ -98,7 +98,7 @@ A move-in clean gives you a fresh starting point. We document the condition of t
 
 ### Move-Out Cleaning
 
-This is where we save people money. A proper [move-out clean](/services/moving-cleaning) focuses on every area your landlord will inspect. We have a dedicated guide on [getting your deposit back](/blog/move-out-cleaning-checklist-deposit) that covers the full checklist.
+This is where we save people money. A proper [move-out clean](/services/moving-cleaning) focuses on every area your landlord will inspect. We have a dedicated guide on [getting your deposit back](/blog/moving-cleaning-checklist-get-deposit-back) that covers the full checklist.
 
 #### Deposit Math
 

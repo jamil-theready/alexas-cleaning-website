@@ -73,7 +73,7 @@ This is the reset button. Everything in a standard clean plus the stuff that bui
 
 ### Move-Out or One-Time Cleaning
 
-The heavy hitter. Usually booked as a [one-time cleaning](/services/one-time-cleaning) when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/move-out-cleaning-checklist-deposit) in a separate guide.
+The heavy hitter. Usually booked as a [one-time cleaning](/services/one-time-cleaning) when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/moving-cleaning-checklist-get-deposit-back) in a separate guide.
 
 ---
 

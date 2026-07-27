@@ -87,3 +87,8 @@
 /service/weekly-cleaning-services-in-sacramento-ca /services/house-cleaning 301
 /service/weekly-cleaning-services-in-placerville-ca /services/house-cleaning 301
 /service/window-cleaning-services-in-roseville-ca /services/house-cleaning 301
+
+# Blog consolidation 2026-07-27 (keyword cannibalization cleanup)
+/blog/move-out-cleaning-checklist-deposit /blog/moving-cleaning-checklist-get-deposit-back 301
+/blog/move-out-cleaning-checklist-get-deposit-back-sacramento /blog/moving-cleaning-checklist-get-deposit-back 301
+/blog/what-to-expect-post-construction-cleaning-sacramento /blog/post-construction-cleaning-what-builders-leave 301
