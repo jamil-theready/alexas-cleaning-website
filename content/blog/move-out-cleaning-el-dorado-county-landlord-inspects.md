@@ -1,20 +1,20 @@
 ---
-slug: "move-out-cleaning-sacramento-landlord-inspects"
-title: "Move-Out Cleaning in Sacramento: What Your Landlord Actually Inspects"
-metaTitle: "Move-Out Cleaning Sacramento | Pass Inspection"
-metaDescription: "Moving out in Sacramento or El Dorado County? Here are the exact areas your landlord inspects during a move-out walkthrough and how to pass every one."
+slug: "move-out-cleaning-el-dorado-county-landlord-inspects"
+title: "Move-Out Cleaning in El Dorado County: What Your Landlord Actually Inspects"
+metaTitle: "Move-Out Cleaning El Dorado County | Pass Inspection"
+metaDescription: "Moving out in El Dorado County? Here are the exact areas your landlord inspects during a move-out walkthrough and how to pass every one."
 date: "2025-12-20"
-updated: "2026-07-13"
+updated: "2026-07-27"
 image: "/images/blog/landlord-inspection.jpg"
 imageAlt: "Landlord inspecting a clean apartment after move-out cleaning"
-excerpt: "What Sacramento landlords look for during move-out inspections and how professional cleaning helps you pass every time."
+excerpt: "What El Dorado County landlords look for during move-out inspections and how professional cleaning helps you pass every time."
 author: "Alexa's Cleaning Services"
 tags:
   - "move-out"
-  - "Sacramento"
+  - "El Dorado County"
   - "landlord inspection"
   - "deposit"
-quickAnswer: "Sacramento landlords inspect kitchens, bathrooms, floors, walls, and appliances during move-out. Professional cleaning addresses all inspection points to help secure your full deposit refund."
+quickAnswer: "El Dorado County landlords inspect kitchens, bathrooms, floors, walls, and appliances during move-out. Professional cleaning addresses all inspection points to help secure your full deposit refund."
 keyTakeaways:
   - "Landlords focus on kitchens and bathrooms during inspection"
   - "Inside appliances and cabinets are common fail points"
@@ -36,7 +36,7 @@ faqs:
     answer: "Even without a formal walkthrough, landlords assess the unit after you leave. A professional clean ensures the unit is in top condition regardless of when or how they inspect it. We recommend taking your own photos after cleaning for documentation."
 ---
 
-## Move-Out Cleaning in Sacramento: What Your Landlord Actually Inspects
+## Move-Out Cleaning in El Dorado County: What Your Landlord Actually Inspects
 
 Last month, a tenant in [Diamond Springs](/areas/diamond-springs) called me furious. Her landlord had withheld $600 from her deposit for "cleaning." She said she had spent an entire day cleaning the apartment herself before moving out.
 
