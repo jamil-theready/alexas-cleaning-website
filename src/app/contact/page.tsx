@@ -45,6 +45,17 @@ export default function ContactPage() {
       }).catch(() => {});
 
       if (res.ok) {
+        // Fire GA4 conversion so leads are measurable (mark "generate_lead" as a
+        // key event in GA4 Admin → Events for it to count as a conversion).
+        type Gtag = (command: string, event: string, params?: Record<string, unknown>) => void;
+        const gtag = (window as unknown as { gtag?: Gtag }).gtag;
+        if (typeof gtag === "function") {
+          gtag("event", "generate_lead", {
+            event_category: "contact",
+            event_label: window.location.pathname,
+            value: 1,
+          });
+        }
         window.location.href = "/thank-you";
       } else {
         setIsSubmitting(false);
