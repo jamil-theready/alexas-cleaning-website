@@ -10,7 +10,8 @@ import { getAllBlogPosts } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Cleaning Tips & Guides | Alexa's Cleaning Services Blog",
   description:
-    "Expert cleaning tips, guides, and advice from Alexa's Cleaning Services in Placerville, CA. Learn about house cleaning, deep cleaning, move-out cleaning, and more.",
+    "Cleaning tips and guides from Alexa's Cleaning Services in Placerville CA. House cleaning, deep cleaning, move-out cleaning, and more.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogIndex() {

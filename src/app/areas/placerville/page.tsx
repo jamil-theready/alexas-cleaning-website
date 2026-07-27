@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in Placerville CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning and commercial cleaning in Placerville CA. Licensed, insured, 15+ years serving Placerville families. No contracts. Free quotes. Call (530) 214-6361.",
+    "House and commercial cleaning in Placerville CA. Licensed, insured, 15+ years serving local families. No contracts. Call (530) 214-6361.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/areas/placerville",
   },

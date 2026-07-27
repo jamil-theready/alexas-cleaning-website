@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in Cameron Park CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning in Cameron Park CA. Licensed, insured, 15+ years experience. Serving Cameron Park Lake area and Highway 50 corridor. Call (530) 214-6361.",
+    "Professional house cleaning in Cameron Park CA. Licensed, insured, 15+ years experience. Serving the Cameron Park Lake area. Call (530) 214-6361.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/areas/cameron-park",
   },

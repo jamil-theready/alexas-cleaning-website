@@ -9,7 +9,7 @@ import { getAllBlogPosts } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Alejandra Ortiz | Founder, Alexa's Cleaning Services",
   description:
-    "Alejandra Ortiz founded Alexa's Cleaning Services in Placerville, CA over 15 years ago. She personally trains every team member and writes the cleaning guides on this site.",
+    "Alejandra Ortiz founded Alexa's Cleaning Services in Placerville CA 15+ years ago. She trains every team member and writes the guides on this site.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/author/alejandra-ortiz",
   },

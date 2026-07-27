@@ -14,7 +14,7 @@ const commercial = ["commercial-cleaning", "church-cleaning", "warehouse-cleanin
 
 // Service slug → most relevant blog guide slug (internal linking, service → blog)
 const serviceGuides: Record<string, string> = {
-  "airbnb-cleaning": "airbnb-turnover-cleaning-guide-sacramento-hosts",
+  "airbnb-cleaning": "airbnb-turnover-cleaning-guide-el-dorado-county-hosts",
   "apartment-cleaning": "apartment-cleaning-services-renters",
   "deep-cleaning": "deep-cleaning-vs-regular-cleaning",
   "one-time-cleaning": "deep-cleaning-vs-regular-cleaning",
@@ -24,12 +24,12 @@ const serviceGuides: Record<string, string> = {
   "weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
   "bi-weekly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
   "monthly-cleaning": "weekly-biweekly-monthly-cleaning-guide",
-  "moving-cleaning": "move-out-cleaning-checklist-deposit",
+  "moving-cleaning": "moving-cleaning-checklist-get-deposit-back",
   "post-construction-cleaning": "post-construction-cleaning-what-builders-leave",
   "floor-cleaning": "professional-floor-cleaning-types-methods",
   "retail-cleaning": "retail-store-cleaning-first-impressions",
   "daycare-cleaning": "why-daycare-needs-professional-cleaning",
-  "church-cleaning": "why-sacramento-churches-need-professional-cleaning-services",
+  "church-cleaning": "why-el-dorado-county-churches-need-professional-cleaning-services",
   "disinfecting-cleaning": "importance-of-disinfection-commercial-spaces",
   "commercial-cleaning": "importance-of-disinfection-commercial-spaces",
   "medical-cleaning": "importance-of-disinfection-commercial-spaces",

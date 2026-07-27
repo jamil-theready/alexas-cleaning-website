@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Alexa's Cleaning Services",
   description:
     "Privacy policy for Alexa's Cleaning Services in Placerville CA. Learn how we collect, use, and protect your personal information.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {

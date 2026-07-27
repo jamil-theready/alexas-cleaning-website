@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Cleaning Services in Shingle Springs CA | Alexa's Cleaning",
   description:
-    "Professional house cleaning in Shingle Springs CA. Licensed, insured, 15+ years experience. Serving Gold Country families. No contracts. Call (530) 214-6361.",
+    "Professional house cleaning in Shingle Springs CA. Licensed, insured, 15+ years experience. No contracts. Call (530) 214-6361.",
   alternates: {
     canonical: "https://www.alexascleaningplacerville.com/areas/shingle-springs",
   },

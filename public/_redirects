@@ -87,3 +87,14 @@
 /service/weekly-cleaning-services-in-sacramento-ca /services/house-cleaning 301
 /service/weekly-cleaning-services-in-placerville-ca /services/house-cleaning 301
 /service/window-cleaning-services-in-roseville-ca /services/house-cleaning 301
+
+# Blog consolidation 2026-07-27 (keyword cannibalization cleanup)
+/blog/move-out-cleaning-checklist-deposit /blog/moving-cleaning-checklist-get-deposit-back 301
+/blog/move-out-cleaning-checklist-get-deposit-back-sacramento /blog/moving-cleaning-checklist-get-deposit-back 301
+/blog/what-to-expect-post-construction-cleaning-sacramento /blog/post-construction-cleaning-what-builders-leave 301
+
+# Sacramento -> El Dorado County geo retarget 2026-07-27
+/blog/house-cleaning-services-sacramento /blog/house-cleaning-services-el-dorado-county 301
+/blog/airbnb-turnover-cleaning-guide-sacramento-hosts /blog/airbnb-turnover-cleaning-guide-el-dorado-county-hosts 301
+/blog/move-out-cleaning-sacramento-landlord-inspects /blog/move-out-cleaning-el-dorado-county-landlord-inspects 301
+/blog/why-sacramento-churches-need-professional-cleaning-services /blog/why-el-dorado-county-churches-need-professional-cleaning-services 301

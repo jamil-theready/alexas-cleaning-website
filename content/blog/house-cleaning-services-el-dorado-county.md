@@ -1,20 +1,20 @@
 ---
-slug: "house-cleaning-services-sacramento"
-title: "The Complete Guide to House Cleaning Services in Sacramento"
-metaTitle: "House Cleaning Services Sacramento CA | Alexa's Cleaning"
-metaDescription: "Everything you need to know about hiring house cleaning services in Sacramento and El Dorado County. Pricing, what to expect, and how to find the right fit."
+slug: "house-cleaning-services-el-dorado-county"
+title: "The Complete Guide to House Cleaning Services in El Dorado County"
+metaTitle: "House Cleaning Services El Dorado County | Alexa's Cleaning"
+metaDescription: "Everything you need to know about hiring house cleaning services in El Dorado County. Pricing, what to expect, and how to find the right fit."
 date: "2026-02-15"
-updated: "2026-07-13"
+updated: "2026-07-27"
 image: "/images/blog/house-cleaning.jpg"
-imageAlt: "Professional house cleaning service in Sacramento and El Dorado County"
-excerpt: "Everything you need to know about hiring house cleaning services in Sacramento. Pricing, what to expect, and how to find the right fit."
+imageAlt: "Professional house cleaning service in El Dorado County"
+excerpt: "Everything you need to know about hiring house cleaning services in El Dorado County. Pricing, what to expect, and how to find the right fit."
 author: "Alexa's Cleaning Services"
 tags:
   - "house cleaning"
-  - "Sacramento"
+  - "El Dorado County"
   - "pricing"
   - "guide"
-quickAnswer: "House cleaning in Sacramento costs $80 to $280 for standard cleaning depending on home size, with deep cleaning running $150 to $450. Look for licensed, insured companies with no contracts."
+quickAnswer: "House cleaning in El Dorado County costs $80 to $280 for standard cleaning depending on home size, with deep cleaning running $150 to $450. Look for licensed, insured companies with no contracts."
 keyTakeaways:
   - "Standard cleaning covers floors, kitchens, and bathrooms"
   - "Deep cleaning is a full reset including baseboards and inside appliances"
@@ -22,8 +22,8 @@ keyTakeaways:
   - "Always verify license and insurance before hiring"
   - "No-contract services offer the most flexibility"
 faqs:
-  - question: "How much does house cleaning cost in Sacramento?"
-    answer: "Standard cleaning for a 2-3 bedroom home typically runs $100 to $200 in the Sacramento and El Dorado County area. Deep cleaning ranges from $180 to $350 depending on size and condition. We provide free estimates so you know the exact price before we start."
+  - question: "How much does house cleaning cost in El Dorado County?"
+    answer: "Standard cleaning for a 2-3 bedroom home typically runs $100 to $200 in El Dorado County. Deep cleaning ranges from $180 to $350 depending on size and condition. We provide free estimates so you know the exact price before we start."
   - question: "Do I need to be home during cleaning?"
     answer: "No. Many of our clients give us a lockbox code or garage code and go about their day. We are licensed and insured, so your home is covered while we work."
   - question: "What cleaning products do you use?"
@@ -36,13 +36,13 @@ faqs:
     answer: "No minimums and no contracts. Whether you need a one-time deep clean or weekly service, we build around your schedule."
 ---
 
-## The Complete Guide to House Cleaning Services in Sacramento
+## The Complete Guide to House Cleaning Services in El Dorado County
 
 I started Alexa's Cleaning with a mop, a bucket, and one client who found me on Nextdoor. Three years and 307 homes later, the number one question people ask me has not changed: "How do I actually find a good cleaner?"
 
-**As of 2026, house cleaning in Sacramento costs $80 to $280 for a standard clean and $150 to $450 for a deep clean, depending on home size and condition.**
+**As of 2026, house cleaning in El Dorado County costs $80 to $280 for a standard clean and $150 to $450 for a deep clean, depending on home size and condition.**
 
-This guide breaks down everything. What cleaning services cost in the Sacramento area, what you should expect, and the stuff nobody tells you before you book.
+This guide breaks down everything. What cleaning services cost in the El Dorado County, what you should expect, and the stuff nobody tells you before you book.
 
 ---
 
@@ -73,15 +73,15 @@ This is the reset button. Everything in a standard clean plus the stuff that bui
 
 ### Move-Out or One-Time Cleaning
 
-The heavy hitter. Usually booked as a [one-time cleaning](/services/one-time-cleaning) when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/move-out-cleaning-checklist-deposit) in a separate guide.
+The heavy hitter. Usually booked as a [one-time cleaning](/services/one-time-cleaning) when you are moving, hosting an event, or the house has not been professionally cleaned in a while. We cover [what move-out cleaning includes](/blog/moving-cleaning-checklist-get-deposit-back) in a separate guide.
 
 ---
 
-## How Much Does House Cleaning Cost in Sacramento?
+## How Much Does House Cleaning Cost in El Dorado County?
 
 I am going to give you real numbers. Not the vague "it depends" answer most companies hide behind.
 
-### Average Pricing in the Sacramento Region
+### Average Pricing in the El Dorado County Region
 
 | Home Size | Standard Clean | Deep Clean |
 |---|---|---|
@@ -90,7 +90,7 @@ I am going to give you real numbers. Not the vague "it depends" answer most comp
 | 3 bed / 2 bath | $130 to $200 | $220 to $350 |
 | 4+ bed / 3 bath | $180 to $280 | $300 to $450+ |
 
-These ranges reflect what we see in 2026 across Placerville, Folsom, El Dorado Hills, and greater Sacramento. Pricing varies based on the condition of the home, how long it has been since the last professional clean, and whether you have pets.
+These ranges reflect what we see in 2026 across Placerville, Folsom, El Dorado Hills, and greater El Dorado County. Pricing varies based on the condition of the home, how long it has been since the last professional clean, and whether you have pets.
 
 ### What Affects the Price
 
