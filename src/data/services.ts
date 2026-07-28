@@ -104,7 +104,7 @@ export const services: ServicePage[] = [
     slug: "commercial-cleaning",
     title: "Commercial Cleaning",
     metaTitle:
-      "Commercial Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Commercial Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Reliable commercial cleaning for Placerville businesses. Offices, retail, and more. Licensed, insured, flexible scheduling. No contracts required.",
     heroImage: "/images/commercial-cleaning.jpg",
@@ -150,7 +150,7 @@ export const services: ServicePage[] = [
     slug: "post-construction-cleaning",
     title: "Post-Construction Cleaning",
     metaTitle:
-      "Post-Construction Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Post-Construction Cleanup Placerville CA | Alexa's",
     metaDescription:
       "Post-construction cleanup in Placerville CA. Dust, debris, and detail work handled. Licensed, insured, ready for final walkthrough. Free estimates.",
     heroImage: "/images/post-construction.jpg",
@@ -195,7 +195,7 @@ export const services: ServicePage[] = [
   {
     slug: "airbnb-cleaning",
     title: "Airbnb Cleaning",
-    metaTitle: "Airbnb Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Airbnb Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Fast, reliable Airbnb turnover cleaning in Placerville CA. Guest ready results every time. Licensed, insured, no contracts. Book your turnovers today.",
     heroImage: "/images/airbnb-cleaning.jpg",
@@ -241,7 +241,7 @@ export const services: ServicePage[] = [
     slug: "apartment-cleaning",
     title: "Apartment Cleaning",
     metaTitle:
-      "Apartment Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Apartment Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Affordable apartment cleaning in Placerville and El Dorado County. Move in, move out, and recurring service. Licensed, insured, no contracts.",
     heroImage: "/images/apartment-cleaning.jpg",
@@ -286,7 +286,7 @@ export const services: ServicePage[] = [
   {
     slug: "church-cleaning",
     title: "Church Cleaning",
-    metaTitle: "Church Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Church Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Dependable church cleaning in Placerville CA. Sanctuaries, fellowship halls, and restrooms. Licensed, insured, flexible scheduling. No contracts.",
     heroImage: "/images/church-cleaning.jpg",
@@ -332,7 +332,7 @@ export const services: ServicePage[] = [
     slug: "warehouse-cleaning",
     title: "Warehouse Cleaning",
     metaTitle:
-      "Warehouse Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Warehouse Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional warehouse cleaning in Placerville and El Dorado County. Floors, restrooms, break rooms, and more. Licensed, insured, no contracts.",
     heroImage: "/images/warehouse-cleaning.jpg",
@@ -422,7 +422,7 @@ export const services: ServicePage[] = [
   {
     slug: "daycare-cleaning",
     title: "Daycare Cleaning",
-    metaTitle: "Daycare Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Daycare Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Safe, thorough daycare cleaning in Placerville CA. Child safe products, toy sanitization, and daily disinfection. Licensed, insured, no contracts.",
     heroImage: "/images/deep-cleaning.jpg",
@@ -467,7 +467,7 @@ export const services: ServicePage[] = [
   {
     slug: "medical-cleaning",
     title: "Medical Cleaning",
-    metaTitle: "Medical Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Medical Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional medical office cleaning in Placerville CA. OSHA compliant sanitization for clinics and dental offices. Licensed, insured, no contracts.",
     heroImage: "/images/commercial-cleaning.jpg",
@@ -513,7 +513,7 @@ export const services: ServicePage[] = [
     slug: "eco-cleaning",
     title: "Eco-Friendly Cleaning",
     metaTitle:
-      "Eco-Friendly Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Eco-Friendly Cleaning Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Green cleaning services in Placerville CA. Nontoxic, biodegradable products that protect your family and the environment. Licensed, insured, no contracts.",
     heroImage: "/images/house-cleaning.jpg",
@@ -604,7 +604,7 @@ export const services: ServicePage[] = [
     slug: "disinfecting-cleaning",
     title: "Disinfecting & Sanitization",
     metaTitle:
-      "Disinfecting & Sanitization in Placerville CA | Alexa's Cleaning Services",
+      "Disinfecting & Sanitizing Placerville CA | Alexa's",
     metaDescription:
       "Professional disinfecting and sanitization in Placerville CA. EPA approved products for homes and businesses. Licensed, insured, no contracts required.",
     heroImage: "/images/commercial-cleaning.jpg",
@@ -650,7 +650,7 @@ export const services: ServicePage[] = [
     slug: "retail-cleaning",
     title: "Retail Store Cleaning",
     metaTitle:
-      "Retail Store Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Retail Store Cleaning Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional retail store cleaning in Placerville CA. Clean sales floors, fitting rooms, and restrooms. Licensed, insured, no contracts. Free estimates.",
     heroImage: "/images/commercial-cleaning.jpg",
@@ -696,7 +696,7 @@ export const services: ServicePage[] = [
     slug: "weekly-cleaning",
     title: "Weekly Cleaning",
     metaTitle:
-      "Weekly Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Weekly Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Reliable weekly cleaning service in Placerville CA. Consistent results every visit. Licensed, insured, no contracts, no rescheduling fees. Book today.",
     heroImage: "/images/house-cleaning.jpg",
@@ -742,7 +742,7 @@ export const services: ServicePage[] = [
     slug: "monthly-cleaning",
     title: "Monthly Cleaning",
     metaTitle:
-      "Monthly Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Monthly Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Affordable monthly cleaning in Placerville CA. A thorough refresh every month. Licensed, insured, no contracts, no rescheduling fees. Schedule today.",
     heroImage: "/images/house-cleaning.jpg",
@@ -788,7 +788,7 @@ export const services: ServicePage[] = [
     slug: "moving-cleaning",
     title: "Move-In/Move-Out Cleaning",
     metaTitle:
-      "Move-In/Move-Out Cleaning in Placerville CA | Alexa's Cleaning Services",
+      "Move-In/Move-Out Cleaning Placerville CA | Alexa's",
     metaDescription:
       "Professional move in and move out cleaning in Placerville CA. Protect your deposit and start fresh. Licensed, insured, no contracts. Free estimates.",
     heroImage: "/images/apartment-cleaning.jpg",
@@ -833,10 +833,10 @@ export const services: ServicePage[] = [
   {
     slug: "window-cleaning",
     title: "Window Cleaning",
-    metaTitle: "Window Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Window Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional window cleaning in Placerville and El Dorado County. Interior and exterior windows, screens, and tracks. Licensed and insured. No contracts.",
-    heroImage: "/images/window-cleaning.jpg",
+    heroImage: "/images/house-cleaning.jpg",
     description:
       "Clean windows make a noticeable difference in how your home or business looks and feels. Alexa's Cleaning Services provides professional window cleaning for residential and commercial properties throughout Placerville and El Dorado County. We clean interior and exterior windows, screens, sills, and tracks.\n\nOur team uses professional streak-free cleaning solutions and the right tools for every type of window. From standard single-pane windows to large picture windows and skylights, we handle it all safely and efficiently. We take care to protect your floors, furniture, and landscaping while we work.\n\nWhether you need a one-time deep clean for your windows or want to add window cleaning to your regular maintenance schedule, we offer flexible options with no contracts. Your windows will be crystal clear, letting in maximum natural light and giving your property the polished look it deserves.",
     benefits: [
@@ -873,10 +873,10 @@ export const services: ServicePage[] = [
   {
     slug: "janitorial-cleaning",
     title: "Janitorial Cleaning",
-    metaTitle: "Janitorial Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Janitorial Cleaning in Placerville CA | Alexa's",
     metaDescription:
-      "Professional janitorial cleaning services in Placerville and El Dorado County. Offices, buildings, and commercial spaces. Licensed and insured. No contracts.",
-    heroImage: "/images/janitorial-cleaning.jpg",
+      "Professional janitorial cleaning in Placerville and El Dorado County. Offices, buildings, and commercial spaces. Licensed and insured. No contracts.",
+    heroImage: "/images/commercial-cleaning.jpg",
     description:
       "Maintaining a clean and professional workspace requires consistent, reliable janitorial service. Alexa's Cleaning Services provides daily, weekly, and custom-frequency janitorial cleaning for offices, commercial buildings, and shared workspaces throughout Placerville and El Dorado County.\n\nOur janitorial services cover everything from restroom sanitation and trash removal to floor care, surface disinfection, and common area maintenance. We work around your business hours to minimize disruption and ensure your space is ready for employees and customers every morning.\n\nWe create a customized cleaning plan based on your facility size, foot traffic, and specific needs. Our team is fully licensed and insured, and we use commercial-grade equipment and eco-friendly products. No contracts lock you in. We earn your business every visit through consistent, reliable performance.",
     benefits: [
@@ -913,10 +913,10 @@ export const services: ServicePage[] = [
   {
     slug: "one-time-cleaning",
     title: "One-Time Cleaning",
-    metaTitle: "One-Time Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "One-Time Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional one-time cleaning services in Placerville and El Dorado County. No commitment, no contracts. Perfect for special occasions or a fresh start.",
-    heroImage: "/images/one-time-cleaning.jpg",
+    heroImage: "/images/house-cleaning.jpg",
     description:
       "Sometimes you just need a single, thorough cleaning without committing to a regular schedule. Alexa's Cleaning Services offers one-time cleaning for homes and businesses in Placerville and El Dorado County. No contracts, no obligations. Just a spotless space when you need it.\n\nOur one-time cleaning is perfect for preparing for guests, recovering after a party or event, getting your home ready to sell, or simply giving yourself a fresh start. We bring the same attention to detail and professional standards to every one-time job as we do to our recurring clients.\n\nTell us your priorities and we will focus on the areas that matter most to you. Whether you need a full home deep clean, specific rooms, or just the high-traffic areas refreshed, we customize the service to fit your needs and budget.",
     benefits: [
@@ -953,10 +953,10 @@ export const services: ServicePage[] = [
   {
     slug: "bi-weekly-cleaning",
     title: "Bi-Weekly Cleaning",
-    metaTitle: "Bi-Weekly Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Bi-Weekly Cleaning in Placerville CA | Alexa's Cleaning",
     metaDescription:
       "Professional bi-weekly cleaning services in Placerville and El Dorado County. Every two weeks, your home stays fresh. No contracts, no rescheduling fees.",
-    heroImage: "/images/bi-weekly-cleaning.jpg",
+    heroImage: "/images/house-cleaning.jpg",
     description:
       "Bi-weekly cleaning is the most popular option for Placerville families who want a consistently clean home without the cost of weekly service. Alexa's Cleaning Services visits every two weeks to keep your home fresh, organized, and comfortable for your family.\n\nOur bi-weekly service follows a detailed room-by-room checklist. We dust, vacuum, mop, clean bathrooms and kitchens, wipe down surfaces, and handle all the tasks that keep your home in great shape between visits. Each cleaning builds on the last, so your home maintains a high baseline of cleanliness.\n\nFlexibility is built into everything we do. Skip a visit when you are on vacation. Reschedule when life gets busy. There are no contracts, no cancellation fees, and no pressure. Just reliable, professional cleaning every two weeks from a team you trust.",
     benefits: [
