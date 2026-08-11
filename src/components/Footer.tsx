@@ -1,5 +1,7 @@
 import Link from "next/link";
+import TrcCredit from "@/components/TrcCredit";
 
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 export default function Footer() {
   return (
     <footer
@@ -122,23 +124,27 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-white/10 pt-8 text-center">
-          <p className="text-[13px] text-white/40">
-            &copy; {new Date().getFullYear()} Alexa&apos;s Cleaning Services.
-            All rights reserved.
-          </p>
-          <div className="mt-3 flex items-center justify-center gap-4 text-[13px] text-white/40">
-            <Link href="/privacy-policy" className="transition-colors hover:text-yellow">
-              Privacy Policy
-            </Link>
-            <span>|</span>
-            <Link href="/terms" className="transition-colors hover:text-yellow">
-              Terms &amp; Conditions
-            </Link>
+        <div className="mt-12 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 text-center sm:flex-row sm:items-end sm:text-left">
+          <div>
+            <p className="text-[13px] text-white/40">
+              &copy; {new Date().getFullYear()} Alexa&apos;s Cleaning Services.
+              All rights reserved.
+            </p>
+            <div className="mt-3 flex items-center justify-center gap-4 text-[13px] text-white/40 sm:justify-start">
+              <Link href="/privacy-policy" className="transition-colors hover:text-yellow">
+                Privacy Policy
+              </Link>
+            <CookieSettingsLink className="transition-colors hover:text-yellow" />
+              <span>|</span>
+              <Link href="/terms" className="transition-colors hover:text-yellow">
+                Terms &amp; Conditions
+              </Link>
+            </div>
+            <p className="mt-2 text-[12px] text-white/30">
+              License #074540, County of El Dorado
+            </p>
           </div>
-          <p className="mt-2 text-[12px] text-white/30">
-            License #074540, County of El Dorado
-          </p>
+          <TrcCredit className="text-white" />
         </div>
       </div>
     </footer>
