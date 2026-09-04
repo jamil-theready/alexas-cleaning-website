@@ -13,9 +13,9 @@ export const services: ServicePage[] = [
   {
     slug: "house-cleaning",
     title: "House Cleaning",
-    metaTitle: "House Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "House & Deep Cleaning in Placerville, CA | Alexa's",
     metaDescription:
-      "Professional house cleaning in Placerville and El Dorado County. Licensed and insured. No contracts or rescheduling fees. Book your cleaning today.",
+      "House cleaning and deep cleaning in Placerville and El Dorado County. Licensed and insured, no contracts, no rescheduling fees. Get a free quote.",
     heroImage: "/images/house-cleaning.jpg",
     description:
       "Your home should feel like a retreat. Alexa's Cleaning Services provides thorough, reliable house cleaning for families and homeowners throughout Placerville and El Dorado County. We handle everything from dusting and vacuuming to kitchens, bathrooms, and living areas so you can spend your time on what actually matters.\n\nEvery visit follows a detailed checklist tailored to your home. Our team arrives on time, every time. We bring our own professional grade supplies and equipment, and we treat your space with the same care we would our own. Whether you need weekly, biweekly, or monthly service, we build a schedule that works for your household.\n\nWe are fully licensed and insured for your peace of mind. There are no contracts locking you in and no fees if you need to reschedule. Placerville families trust us because we show up, do excellent work, and never cut corners.",
@@ -58,7 +58,7 @@ export const services: ServicePage[] = [
   {
     slug: "deep-cleaning",
     title: "Deep Cleaning",
-    metaTitle: "Deep Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Deep Cleaning in Placerville, CA | Alexa's Cleaning",
     metaDescription:
       "Detailed deep cleaning services in Placerville CA. We tackle buildup, grime, and neglected areas. Licensed, insured, no contracts. Get a free quote.",
     heroImage: "/images/deep-cleaning.jpg",
@@ -149,10 +149,9 @@ export const services: ServicePage[] = [
   {
     slug: "post-construction-cleaning",
     title: "Post-Construction Cleaning",
-    metaTitle:
-      "Post-Construction Cleanup Placerville CA | Alexa's",
+    metaTitle: "Post-Construction Cleaning Placerville, CA | Alexa's",
     metaDescription:
-      "Post-construction cleanup in Placerville CA. Dust, debris, and detail work handled. Licensed, insured, ready for final walkthrough. Free estimates.",
+      "Post-construction cleaning in Placerville and El Dorado County. Dust, debris, and detail work handled for final walkthrough. Free estimates.",
     heroImage: "/images/post-construction.jpg",
     description:
       "Construction projects leave behind a mess that regular cleaning cannot handle. Sawdust settles into every crevice. Drywall dust coats every surface. Adhesive residue, paint splatters, and debris make a newly built or renovated space feel far from finished. Alexa's Cleaning Services specializes in post construction cleanup that gets your property ready for move in or final walkthrough.\n\nWe follow a phased approach to post construction cleaning. First, we remove all large debris and leftover materials. Then we address the fine dust that settles on every surface, inside cabinets, on window tracks, and in air vents. Finally, we detail clean floors, fixtures, countertops, and glass until the space shines. The result is a property that looks as good as the blueprints promised.\n\nWe work with general contractors, homeowners, and property developers across Placerville and El Dorado County. Our team is licensed, insured, and experienced with both residential and commercial construction cleanups. No contracts. No rescheduling fees. Just a spotless space delivered on your timeline.",
@@ -558,7 +557,7 @@ export const services: ServicePage[] = [
   {
     slug: "floor-cleaning",
     title: "Floor Cleaning",
-    metaTitle: "Floor Cleaning in Placerville CA | Alexa's Cleaning Services",
+    metaTitle: "Floor Cleaning in Placerville, CA | Alexa's Cleaning",
     metaDescription:
       "Expert floor cleaning in Placerville CA. Hardwood, tile, laminate, and vinyl floor care. Licensed, insured, no contracts. Get a free estimate today.",
     heroImage: "/images/deep-cleaning.jpg",
