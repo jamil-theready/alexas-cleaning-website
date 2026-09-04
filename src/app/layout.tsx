@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import CookieConsent from "@/components/CookieConsent";
+import ConsentGatedScripts from "@/components/ConsentGatedScripts";
+import { consentBootstrap } from "@/lib/consent";
+import Script from "next/script";
 export const metadata: Metadata = {
   title: "Alexa's Cleaning Services | Placerville, CA",
   description:
@@ -116,16 +120,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Consent Mode v2 defaults. Must stay the first script in <head> so the
+            defaults are set before the gtag loader below executes. */}
+        <script dangerouslySetInnerHTML={{ __html: consentBootstrap() }} />
         <link rel="icon" href="/images/favicon.png" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCT5ZJ1J4W" />
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-FCT5ZJ1J4W');`,
-          }}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var s=document.createElement("script");s.async=true;s.src="https://tracker.metricool.com/resources/be.js";s.onload=function(){beTracker.t({hash:"e716baa6b1484524a0dd6332688afc52"})};document.head.appendChild(s)})();`,
           }}
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -143,7 +144,24 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        {/* Metricool ignores Consent Mode, so it loads only after acceptance. */}
+        <ConsentGatedScripts>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function(){var s=document.createElement("script");s.async=true;s.src="https://tracker.metricool.com/resources/be.js";s.onload=function(){beTracker.t({hash:"e716baa6b1484524a0dd6332688afc52"})};document.head.appendChild(s)})();`,
+            }}
+          />
+        </ConsentGatedScripts>
+        <CookieConsent />
+        {/* GA4 via next/script: injected after hydration, so the consent
+            defaults in <head> are always already applied. */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-FCT5ZJ1J4W" strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-FCT5ZJ1J4W');`}
+        </Script>
+      </body>
     </html>
   );
 }

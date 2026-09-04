@@ -126,6 +126,15 @@ export default function PrivacyPolicyPage() {
               You can control cookie settings through your browser preferences.
               Disabling cookies may affect certain features of the website.
             </p>
+            <p className="mb-12 text-[17px] leading-relaxed text-dark-gray">
+              We use Google Analytics and Metricool. A banner on your first visit
+              lets you accept or decline these cookies, and the{" "}
+              <strong>Cookie Settings</strong> link in the footer lets you change
+              that choice at any time. If you decline, Metricool is not loaded at
+              all, analytics collection stops, and the analytics cookies already
+              stored in your browser are removed. Visitors in the EU, UK, and
+              Switzerland have these disabled by default until they accept.
+            </p>
 
             {/* Your Rights */}
             <h2 className="mb-6 font-[family-name:var(--font-serif)] text-[28px] text-burgundy md:text-[36px]">

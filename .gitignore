@@ -37,3 +37,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# iCloud duplicates: ~/Desktop is synced and clones build dirs as "out 2"
+/out */
