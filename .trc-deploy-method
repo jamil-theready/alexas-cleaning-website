@@ -1,0 +1,19 @@
+git
+
+# 2026-08-11: CORRECTED. This file previously said `wrangler`, on the basis that
+# a git-triggered build produced a deployment that 404'd on every path
+# (observed 2026-08-02). That is no longer true and the note was costing real
+# money: believing pushes were unsafe is part of why commit 0a13e5f — which
+# fixed FOUR 404ing hero images — sat undeployed for two weeks while the client
+# looked at a broken site.
+#
+# Evidence it works: the three production deployments before this one
+# (e9079f6, 296c6e0, a31ef1f) were all git-triggered builds from main, and the
+# site served 200 throughout. Pushing e359548 on 2026-08-11 produced build
+# 637112bf, which serves correctly — verified on the live domain, all 4 pages,
+# every image 200.
+#
+# Both paths work. wrangler is still the faster way to ship an urgent fix
+# (`npx wrangler pages deploy out --project-name=alexas-cleaning-website`), but
+# a push is no longer dangerous, so DO push — leaving the fix only in a working
+# tree is how this got broken in the first place.
