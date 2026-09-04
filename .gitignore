@@ -40,3 +40,12 @@ next-env.d.ts
 
 # iCloud duplicates: ~/Desktop is synced and clones build dirs as "out 2"
 /out */
+
+# iCloud duplicate files. ~/Desktop is synced and iCloud clones a file as
+# "name 2.ext" whenever it sees a local write race — committing one blog post
+# reliably produces a " 2" twin. They are byte-identical garbage, never real
+# work, and they polluted every `git status` on this repo.
+* 2
+* 3
+* 2.*
+* 3.*
