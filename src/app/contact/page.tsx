@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import PageHero from "@/components/PageHero";
+import { appendLeadAttribution } from "@/lib/lead-attribution";
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -16,6 +17,7 @@ export default function ContactPage() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+    const attribution = appendLeadAttribution(formData, "contact_form");
     formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
     formData.append("subject", "New Contact Form - Alexa's Cleaning");
     formData.append("from_name", "Alexa's Cleaning Website");
@@ -41,6 +43,7 @@ export default function ContactPage() {
           phone: formData.get("phone"),
           service: formData.get("service"),
           message: formData.get("message"),
+          ...attribution,
         }),
       }).catch(() => {});
 
@@ -186,6 +189,10 @@ export default function ContactPage() {
                     />
                   </div>
 
+                  <div>
+                    <label htmlFor="how_heard" className="mb-1.5 block text-[14px] font-semibold text-burgundy">How did you hear about us? <span className="font-normal">(optional)</span></label>
+                    <select id="how_heard" name="how_heard" className="w-full rounded-xl border border-burgundy/20 bg-light-bg px-4 py-3 text-[15px] text-dark-gray"><option value="">Select one</option><option>Google Search or Maps</option><option>Google ad</option><option>Facebook or Instagram</option><option>Friend or referral</option><option>Other</option></select>
+                  </div>
                   <button
                     type="submit"
                     disabled={isSubmitting}
