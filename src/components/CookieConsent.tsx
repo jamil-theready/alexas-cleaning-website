@@ -27,8 +27,9 @@ export default function CookieConsent() {
   const acceptRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    setBlocking(isEuLikeTimezone());
-    if (!readConsent()) setOpen(true);
+    const euLike = isEuLikeTimezone();
+    setBlocking(euLike);
+    const timer = !readConsent() ? window.setTimeout(() => setOpen(true), euLike ? 0 : 10_000) : undefined;
 
     // Footer "Cookie Settings" reopens the banner for an existing choice.
     const reopen = () => {
@@ -36,7 +37,7 @@ export default function CookieConsent() {
       setOpen(true);
     };
     window.addEventListener(CONSENT_OPEN_EVENT, reopen);
-    return () => window.removeEventListener(CONSENT_OPEN_EVENT, reopen);
+    return () => { if (timer) window.clearTimeout(timer); window.removeEventListener(CONSENT_OPEN_EVENT, reopen); };
   }, []);
 
   // Under a scrim the banner is the only thing on screen, so it takes focus.

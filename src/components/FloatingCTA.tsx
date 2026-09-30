@@ -26,7 +26,7 @@ export default function FloatingCTA() {
   return (
     <a
       href="tel:+15302146361"
-      className={`fixed bottom-6 left-1/2 z-50 -translate-x-1/2 flex items-center gap-2.5 rounded-full bg-burgundy px-6 py-3.5 text-[15px] font-semibold text-white transition-all md:hidden ${
+      className={`fixed bottom-6 left-1/2 z-50 -translate-x-1/2 flex items-center gap-2.5 rounded-full bg-yellow px-6 py-3.5 text-[15px] font-semibold text-burgundy transition-all md:hidden ${
         visible
           ? "translate-y-0 opacity-100"
           : "pointer-events-none translate-y-4 opacity-0"
