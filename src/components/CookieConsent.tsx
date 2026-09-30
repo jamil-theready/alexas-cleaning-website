@@ -25,20 +25,34 @@ export default function CookieConsent() {
   const [open, setOpen] = useState(false);
   const [blocking, setBlocking] = useState(false);
   const acceptRef = useRef<HTMLButtonElement>(null);
+  const timerRef = useRef<number | undefined>(undefined);
+
+  const clearScheduledOpen = useCallback(() => {
+    if (timerRef.current !== undefined) {
+      window.clearTimeout(timerRef.current);
+      timerRef.current = undefined;
+    }
+  }, []);
 
   useEffect(() => {
     const euLike = isEuLikeTimezone();
     setBlocking(euLike);
-    const timer = !readConsent() ? window.setTimeout(() => setOpen(true), euLike ? 0 : 10_000) : undefined;
+    if (!readConsent()) {
+      timerRef.current = window.setTimeout(() => {
+        timerRef.current = undefined;
+        if (!readConsent()) setOpen(true);
+      }, euLike ? 0 : 10_000);
+    }
 
     // Footer "Cookie Settings" reopens the banner for an existing choice.
     const reopen = () => {
+      clearScheduledOpen();
       setBlocking(false);
       setOpen(true);
     };
     window.addEventListener(CONSENT_OPEN_EVENT, reopen);
-    return () => { if (timer) window.clearTimeout(timer); window.removeEventListener(CONSENT_OPEN_EVENT, reopen); };
-  }, []);
+    return () => { clearScheduledOpen(); window.removeEventListener(CONSENT_OPEN_EVENT, reopen); };
+  }, [clearScheduledOpen]);
 
   // Under a scrim the banner is the only thing on screen, so it takes focus.
   useEffect(() => {
@@ -46,9 +60,10 @@ export default function CookieConsent() {
   }, [open, blocking]);
 
   const choose = useCallback((analytics: boolean) => {
+    clearScheduledOpen();
     writeConsent(analytics);
     setOpen(false);
-  }, []);
+  }, [clearScheduledOpen]);
 
   if (!open) return null;
 
